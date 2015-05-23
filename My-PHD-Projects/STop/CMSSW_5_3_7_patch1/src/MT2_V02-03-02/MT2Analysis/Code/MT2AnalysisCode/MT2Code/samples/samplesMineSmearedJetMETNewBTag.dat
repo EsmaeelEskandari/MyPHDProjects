@@ -1,0 +1,80 @@
+############################################################################################
+GENERAL
+Path             ///dataLOCAL/MT2Top/RootFiles/
+#__________________________________________________________________________________________
+# list of samples
+#
+
+
+
+## --------- Data ---------------------------
+
+SAMPLE
+Name		Run2012A_13Jul
+SName		MJ-Data
+ShapeName	Data
+File            NewTreesSmearedJetMETNewBTag/MultiJet-Run2012A-13Jul2012-v1_smallb.root
+Xsection  	1.
+Kfact           1.	
+Lumi            1.
+Type            data
+Color		1
+
+
+SAMPLE
+Name		Run2012A_06Aug
+SName		MJ-Data
+ShapeName	Data
+File            NewTreesSmearedJetMETNewBTag/MultiJet-Run2012A-recover-06Aug2012-v1_smallb.root
+Xsection  	1.
+Kfact           1.	
+Lumi            1.
+Type            data
+Color		1
+
+
+SAMPLE
+Name		Run2012B
+SName		MJ-Data
+ShapeName	Data
+File            NewTreesSmearedJetMETNewBTag/MultiJet-Run2012B-13Jul2012-v1_smallb.root
+Xsection  	1.
+Kfact           1.	
+Lumi            1.
+Type            data
+Color		1
+
+
+SAMPLE
+Name		Run2012C_24Aug2012
+SName		MJ-Data
+ShapeName	Data
+File            NewTreesSmearedJetMETNewBTag/MultiJet-Run2012C-24Aug2012-v1_smallb.root
+Xsection  	1.
+Kfact           1.	
+Lumi            1.
+Type            data
+Color		1
+
+SAMPLE
+Name		Run2012C_PromptReco
+SName		MJ-Data
+ShapeName	Data
+File            NewTreesSmearedJetMETNewBTag/MultiJet-Run2012C-PromptReco-v2_smallb.root
+Xsection  	1.
+Kfact           1.	
+Lumi            1.
+Type            data
+Color		1
+
+SAMPLE
+Name		Run2012D
+SName		MJ-Data
+ShapeName	Data
+File            NewTreesSmearedJetMETNewBTag/MultiJet-Run2012D-PromptReco-v1_smallb.root
+Xsection  	1.
+Kfact           1.	
+Lumi            1.
+Type            data
+Color		1
+

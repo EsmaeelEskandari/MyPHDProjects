@@ -1,0 +1,220 @@
+#include "TBinomialEfficiencyFitter.h"
+#include "TEfficiency.h"
+
+Double_t myfunc(double * x , double * par){
+	double a = (1.-x[0])*(1.-x[0]);
+	double b = (1.-x[0]*x[0]);
+	double c = (1.+x[0])*(1.+x[0]);  
+	return par[2]*(3./8.*a*par[0]+3./4.*b*par[1]+3./8.*c*(1.-par[0]-par[1])); 
+}
+Double_t linearFit(double * x , double * par){
+	return (par[0]*x[0]+par[1]);
+}
+void Macro(){
+        //gStyle->SetOptTitle(0);
+        gStyle->SetOptStat(0);
+	gStyle->SetStatFontSize(0.01); 
+	gStyle->SetStatW(0.15);
+	gStyle->SetStatH(0.2);                
+	gStyle->SetStatY(0.9);                
+	gStyle->SetStatX(0.9);
+
+	TH1::SetDefaultSumw2();
+	//double xbin[10]={0,25,50,75,100,125,150,200,300,450}; 
+	double xbin[10]={0,25,50,75,100,125,150,200,300,700}; 
+	//double xbin[7]={0,100,125,150,180,260,500}; 
+
+	//TFile * all =  new TFile("MT2_allCuts_1ele_smJetMETbtagnotrg_park.root");
+	//	TFile * all =  new TFile("MT2_allCuts_1muo_smJetMETbtagnotrg_park.root");
+	//	TFile * all =  new TFile("MT2_allCuts_1muo_smJetMETbtagnotrg_fornote.root");
+	TFile * all =  new TFile("MT2_allCuts_1muo_smJetMETbtagnotrg.root");
+	//TH1D * MC_all = sumMC->Clone();
+// 	TH1D* MC_all = new TH1D("","" ,6, xbin ); 
+
+// 	double sum1 = 0.;
+// 	double sum2 = 0.;
+// 	double sum3 = 0.;
+// 	double sum4 = 0.;
+// 	double sum5 = 0.;
+// 	double sum6 = 0.;
+// // 	for (int i = 1; i <= sumMC->GetNbinsX(); i++) {
+// // 		if (i<=4) sum1+=sumMC->GetBinContent(i);
+// // 		if (i==5) sum2=sumMC->GetBinContent(i);
+// // 		if (i==6) sum3=sumMC->GetBinContent(i);
+// // 		if (i>=7 && i<=8) sum4+=sumMC->GetBinContent(i);
+// // 		if (i>=9 && i<=12) sum5+=sumMC->GetBinContent(i);
+// // 		if (i>=13 && i<=18) sum6+=sumMC->GetBinContent(i);
+// // 	}
+	
+// 	MC_all->SetBinContent(1,sum1);
+// 	MC_all->SetBinContent(2,sum2);
+// 	MC_all->SetBinContent(3,sum3);
+// 	MC_all->SetBinContent(4,sum4);
+// 	MC_all->SetBinContent(5,sum5);
+// 	MC_all->SetBinContent(6,sum6);
+	TH1D *MC_all = (TH1D*)sumMC->Rebin(9,"MC_all",xbin);
+	TH1D *data_all = (TH1D*)MT2data->Rebin(9,"data_all",xbin);
+
+	//TFile * relax =  new TFile("MT2_relaxedCuts_1ele_smJetMETbtagnotrg_park.root");
+	//	TFile * relax =  new TFile("MT2_relaxedCuts_1muo_smJetMETbtagnotrg_park.root");
+	//	TFile * relax =  new TFile("MT2_relaxedCuts_1muo_smJetMETbtagnotrg_fornote.root");
+	TFile * relax =  new TFile("MT2_relaxedCuts_1muo_smJetMETbtagnotrg.root");
+
+	//TH1D * MC_relaxed = sumMC->Clone();
+//	TH1D* MC_relaxed = new TH1D("","" ,6, xbin );
+
+//        sum1 = 0.;
+//        sum2 = 0.;
+//        sum3 = 0.;
+//        sum4 = 0.;
+//        sum5 = 0.;
+//        sum6 = 0.;
+//        for (int i = 1; i <= sumMC->GetNbinsX(); i++) {
+//                if (i<=4) sum1+=sumMC->GetBinContent(i);
+//                if (i==5) sum2=sumMC->GetBinContent(i);
+//                if (i==6) sum3=sumMC->GetBinContent(i);
+//                if (i>=7 && i<=8) sum4+=sumMC->GetBinContent(i);
+//                if (i>=9 && i<=12) sum5+=sumMC->GetBinContent(i);
+//                if (i>=13 && i<=18) sum6+=sumMC->GetBinContent(i);
+//        } 
+//        MC_relaxed->SetBinContent(1,sum1);
+//        MC_relaxed->SetBinContent(2,sum2);
+//        MC_relaxed->SetBinContent(3,sum3);
+//        MC_relaxed->SetBinContent(4,sum4);
+//        MC_relaxed->SetBinContent(5,sum5);
+//        MC_relaxed->SetBinContent(6,sum6);
+	TH1D *MC_relaxed = (TH1D*)sumMC->Rebin(9,"MC_relaxed",xbin);
+	TH1D *data_relaxed = (TH1D*)MT2data->Rebin(9,"data_relaxed",xbin);
+
+//=== using TEfficiency class =======================================
+/*
+TH1I hPass = TH1I("hPass","hPass",6,xbin);
+TH1I hTotal = TH1I("hTotal","hTotal",6,xbin);
+for (int i = 1; i<= MC_all->GetNbinsX(); i++) {
+hPass.SetBinContent(i,TMath::Nint(MC_all->GetBinContent(i)));
+//hPass.SetBinError(i,MC_all->GetBinError(i));
+cout<<"hPass.GetBinContent "<<hPass.GetBinContent(i)<<endl;
+}
+for (int j = 1; j<= MC_relaxed->GetNbinsX(); j++) {
+hTotal.SetBinContent(j,TMath::Nint(MC_relaxed->GetBinContent(j)));
+//hTotal.SetBinError(j,MC_relaxed->GetBinError(j));
+cout<<"hTotal.GetBinContent "<<hTotal.GetBinContent(j)<<endl;
+}
+
+TEfficiency* pEff = 0;
+ TFile* pFile = new TFile("file.root","recreate");
+ //h_pass and h_total are valid and consistent histograms
+ if(TEfficiency::CheckConsistency(hPass,hTotal)) {
+   pEff = new TEfficiency(hPass,hTotal);
+   pEff->Write();
+   pEff->SetFillStyle(3005);
+   pEff->SetFillColor(kBlue);
+
+   pEff->Draw("A4");
+   //pEff->SetStatisticOption(TEfficiency::kFCP);
+}
+*/
+//=== using TEfficiency class =======================================
+/*
+	cout<<"MC_all->GetBinContent(2):      "<<MC_all->GetBinContent(2)<<" and MC_all->GetBinError(2): "<<MC_all->GetBinError(2)<<endl;
+	cout<<"MC_relaxed->GetBinContent(2):  "<<MC_relaxed->GetBinContent(2)<<" and MC_relaxed->GetBinError(2): "<<MC_relaxed->GetBinError(2)<<endl;
+*/
+	float firstterm = sqrt(MC_all->GetBinContent(2))/MC_relaxed->GetBinContent(2);
+	float secondterm = sqrt(MC_relaxed->GetBinContent(2))*MC_all->GetBinContent(2)/(MC_relaxed->GetBinContent(2)*MC_relaxed->GetBinContent(2));
+	//MC_all->Divide(MC_relaxed);// commented to use binomial errors in division
+	//TH1* hEff = dynamic_cast<TH1*>(MC_all->Clone("heff"));
+	MC_all->Divide(MC_all, MC_relaxed, 1.0, 1.0, "B");
+/*
+	cout<<"ratio->GetBinContent(2):       "<<MC_all->GetBinContent(2)<<endl;
+	cout<<"ratio->GetBinError(2):         "<<MC_all->GetBinError(2)<<endl;
+	cout<<"sqrt(ratio->GetBinContent(2)): "<<sqrt(MC_all->GetBinContent(2))<<endl;
+	cout<<"error from d(A/B):             "<<firstterm-secondterm<<endl;	
+*/
+	//MC_all->SetTitle("== 1 electron");
+	MC_all->SetTitle("== 1 muon");
+	MC_all->GetYaxis()->SetTitle("ratio");
+	MC_all->GetXaxis()->SetTitle("M_{T2}");
+	MC_all->SetMinimum(0);
+	MC_all->SetMaximum(2);
+	//MC_all->SetStats(kFALSE);
+	data_all->SetLineWidth(2);
+        //MC_all->SetStats(0);
+	MC_all->Draw("e");
+
+    string func_title = "Fitted";
+    TF1* func = new TF1(func_title.c_str(),"pol0");
+    func->SetRange(125,450);
+    func->SetLineColor(2);
+    func->SetLineStyle(9);
+    func->SetLineWidth(2);
+
+    MC_all->Fit(func,"RQ");
+    cout<<">>> "<<func->GetParameter(0)<<" +- "<<func->GetParError(0)<<endl;
+    //cout<<">>> "<<func->GetParameter(1)<<" +- "<<func->GetParError(1)<<endl;
+    func->Draw("same");
+
+	//data_all->Divide(data_relaxed);
+	data_all->Divide(data_all,data_relaxed, 1.0, 1.0, "B");
+	//cout<<"?????: "<<data_all->GetBinContent(3)<<endl;
+	data_all->SetLineColor(4);
+	data_all->SetLineStyle(2);
+	data_all->SetLineWidth(2);
+        data_all->Draw("samee");
+
+
+
+	
+   TLegend *leg = new TLegend(0.25,0.75,0.45,0.95,NULL,"BR NDC");
+   leg->SetBorderSize(0);
+   leg->SetTextFont(62);
+   leg->SetLineColor(1);
+   leg->SetLineStyle(1);
+   leg->SetLineWidth(1);
+   leg->SetFillColor(0);
+   leg->SetFillStyle(0);
+
+   TLegendEntry *entry=leg->AddEntry("NULL","MC ratio","L");
+   entry->SetLineColor(1);
+   entry->SetLineStyle(1);
+   entry->SetLineWidth(1);
+
+   entry=leg->AddEntry("NULL","data ratio","L");
+   entry->SetLineColor(4);
+   entry->SetLineStyle(2);
+   entry->SetLineWidth(2);
+
+   entry=leg->AddEntry("NULL","fit function (pol0)","L");
+   entry->SetLineColor(2);
+   entry->SetLineStyle(9);
+   entry->SetLineWidth(2);
+
+
+   leg->Draw();
+ // commented on Apr 29
+/*
+        TF1 *ret = new TF1("ret",linearFit,100,450,2);
+	MC_all->Fit("ret","Q","",100,450);
+	ret->Draw("same");
+        cout<<">>> "<<ret->GetParameter(0)<<endl;
+        cout<<">>> "<<ret->GetParameter(1)<<endl;
+*/
+
+/*
+   TH1* denominator = MC_relaxed->Clone();              // denominator histogram
+   TH1* numerator = MC_all->Clone();                // corresponding numerator histogram
+   TF1* eff = new TF1("myFit","pol0");
+   eff->SetRange(100,450);
+
+   TBinomialEfficiencyFitter* f = new TBinomialEfficiencyFitter(numerator, denominator);
+   Int_t status = f->Fit(eff, "I");
+   if (status == 0) {
+      // if the fit was successful, display bin-by-bin efficiencies
+      // as well as the result of the fit
+      numerator->Sumw2();
+      TH1* hEff = dynamic_cast<TH1*>(numerator->Clone("heff"));
+      hEff->Divide(hEff, denominator, 1.0, 1.0, "B");
+      hEff->Draw("E");
+      eff->Draw("same");
+   }
+*/
+}

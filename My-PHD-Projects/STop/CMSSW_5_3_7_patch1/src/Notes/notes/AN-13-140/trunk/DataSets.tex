@@ -1,0 +1,58 @@
+\section{Datasets and MC samples}
+\label{sect:dataMC}
+To reconstruct the objects, the CMSSW\_5\_2\_5\_patch1 is used for both data and MC.
+The data used in the analysis corresponds to 5.1 \invfb of proton-proton collisions in the center of mass energy of $\sqrt{s}$ = 8 TeV 
+which was taken before summer 2012. The list of the datasets, the run range and the corresponding integrated luminosities are as follow:
+\begin{itemize}
+\item /MultiJet/Run2012A-PromptReco-v1/AOD (190456-193621, 1.1 \invfb)
+\item /HT/Run2012A-PromptReco-v1/AOD (190456-193621, 1.1 \invfb)
+\item /MultiJet/Run2012B-PromptReco-v1/AOD (193834-196531, 4.9 \invfb)
+\item /JetHT/Run2012B-PromptReco-v1/AOD (193834-196531, 4.9 \invfb)
+\end{itemize}
+
+Only the lumisections with fully operative CMS subdetectors are used in this analysis (golden JSON files). To optimize the search method, MC 
+samples are used for different Standard Model backgrounds and signals. These samples are officially generated and reconstructed in the CMS
+collaboration. The full list of the samples and their cross sections are given in Table \ref{Tab.MCSamples}. For most of the samples the most 
+accurate calculation of the cross sections available in the literature (usually NLO) are used.
+
+\begin{table}[!htb]
+\begin{center}
+\caption{List of the MC samples used in this analysis.}
+\label{Tab.MCSamples}
+\begin{tabular}{|l|c|}
+\hline
+Sample name                                                                    & $\sigma$ (pb) \\\hline
+QCD &  \\\hline
+/QCD\_Pt-170to300\_TuneZ2star\_8TeV\_pythia6/Summer12-PU\_S7\_START52\_V9-v1   & 34138.15\\
+/QCD\_Pt-300to470\_TuneZ2star\_8TeV\_pythia6/Summer12-PU\_S7\_START52\_V9-v1   & 1759.55\\
+/QCD\_Pt-470to600\_TuneZ2star\_8TeV\_pythia6/Summer12-PU\_S7\_START52\_V9-v1   & 113.88 \\
+/QCD\_Pt-600to800\_TuneZ2star\_8TeV\_pythia6/Summer12-PU\_S7\_START52\_V9-v1   & 26.99\\
+/QCD\_Pt-800to1000\_TuneZ2star\_8TeV\_pythia6/Summer12-PU\_S7\_START52\_V9-v1  & 3.55\\
+/QCD\_Pt-1000to1400\_TuneZ2star\_8TeV\_pythia6/Summer12-PU\_S7\_START52\_V9-v1 & 0.74\\
+/QCD\_Pt-1400to1800\_TuneZ2star\_8TeV\_pythia6/Summer12-PU\_S7\_START52\_V9-v1 & 0.034\\
+/QCD\_Pt-1800\_TuneZ2star\_8TeV\_pythia6/Summer12-PU\_S7\_START52\_V9-v1       & 0.0018\\\hline
+Top &  \\\hline
+/TTJets\_TuneZ2star\_8TeV-madgraph-tauola/Summer12-PU\_S7\_START52\_V5-v1      & 225.197\\
+/T\_t-channel\_TuneZ2star\_8TeV-powheg-tauola/Summer12-PU\_S7\_START52\_V9-v1  & 55.53\\
+/Tbar\_t-channel\_TuneZ2star\_8TeV-powheg-tauola/Summer12-PU\_S7\_START52\_V9-v1     & 30.00\\
+/T\_tW-channel-DR\_TuneZ2star\_8TeV-powheg-tauola/Summer12-PU\_S7\_START52\_V9-v1    & 11.18\\
+/Tbar\_tW-channel-DR\_TuneZ2star\_8TeV-powheg-tauola/Summer12-PU\_S7\_START52\_V9-v1 & 11.18\\
+/T\_s-channel\_TuneZ2star\_8TeV-powheg-tauola/Summer12-PU\_S7\_START52\_V9-v1        & 3.79\\
+/Tbar\_s-channel\_TuneZ2star\_8TeV-powheg-tauola/Summer12-PU\_S7\_START52\_V9-v1     & 1.76\\\hline
+WJets& \\\hline
+/WJetsToLNu\_HT-250To300\_8TeV-madgraph/Summer12-PU\_S7\_START52\_V9-v1 & 48.01 \\
+/WJetsToLNu\_HT-300To400\_8TeV-madgraph/Summer12-PU\_S7\_START52\_V9-v1 & 38.3  \\
+/WJetsToLNu\_HT-400ToInf\_8TeV-madgraph/Summer12-PU\_S7\_START52\_V9-v1 & 25.22 \\\hline
+ZJets & \\\hline
+/ZJetsToNuNu\_100\_HT\_200\_TuneZ2Star\_8TeV\_madgraph/Summer12-PU\_S7\_START52\_V9-v1 & 160.3\\
+/ZJetsToNuNu\_200\_HT\_400\_TuneZ2Star\_8TeV\_madgraph/Summer12-PU\_S7\_START52\_V9-v3 & 41.49\\
+/ZJetsToNuNu\_400\_HT\_inf\_TuneZ2Star\_8TeV\_madgraph/Summer12-PU\_S7\_START52\_V9-v1 & 5.27\\\hline
+SMS & \\\hline
+/SMS-T1tttt\_Mgluino-350to1200\_mLSP-0to850\_8TeV-Pythia6Z/ &\\
+~ ~ ~ ~ ~ StoreResults-PU\_START52\_V9\_FastSim-v1 &  \\
+/SMS-T2tt\_mstop-225to1200\_mLSP-0to1000\_8TeV-Pythia6Z/&\\
+~ ~ ~ ~ ~ Summer12-START52\_V9\_FSIM-v7 &  \\
+\hline
+\end{tabular}
+\end{center}
+\end{table}

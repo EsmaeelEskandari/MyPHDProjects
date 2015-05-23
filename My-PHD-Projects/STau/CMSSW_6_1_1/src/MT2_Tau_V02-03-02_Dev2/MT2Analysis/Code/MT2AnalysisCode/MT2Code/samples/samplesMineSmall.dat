@@ -1,0 +1,57 @@
+#########################################################################################
+GENERAL
+Path         ///dataLOCAL/MT2Tau/RootFiles/
+________________________________________________________________________________________
+# list of samples
+#
+# -------- electroweak --------
+
+SAMPLE
+Name		Run2012A-Jet
+SName		Jet-Data
+ShapeName	Data
+File            TauTau_V3_1/Jet-Run2012A-22Jan2013-v1-AOD.root
+Xsection  	1.
+Kfact           1.	
+Lumi            1.
+Type            data
+Color		1.
+
+
+SAMPLE
+Name		Run2012B-Jet
+SName		Jet-Data
+ShapeName	Data
+File            TauTau_V3_1/JetHT-Run2012B-22Jan2013-v1-AOD.root
+Xsection  	1.
+Kfact           1.	
+Lumi            1.
+Type            data
+Color		1.
+
+SAMPLE
+Name		Run2012C-Jet
+SName		Jet-Data
+ShapeName	Data
+File            TauTau_V3_1/JetHT-Run2012C-22Jan2013-v1-AOD.root
+Xsection  	1.
+Kfact           1.	
+Lumi            1.
+Type            data
+Color		1.
+
+SAMPLE
+Name		Run2012D-Jet
+SName		Jet-Data
+ShapeName	Data
+File            TauTau_V3_1/JetHT-Run2012D-22Jan2013-v1-AOD.root
+Xsection  	1.
+Kfact           1.	
+Lumi            1.
+Type            data
+Color		1.
+
+
+
+
+

@@ -1,0 +1,10 @@
+<tool name="geant4data" version="">
+  <client>
+    <environment name="GEANT4DATA_BASE" default="/public/V_CMSSW64/slc5_amd64_gcc472/external"/>
+  </client>
+  <runtime name="G4LEDATA" value="/public/V_CMSSW64/slc5_amd64_gcc472/external/geant4-G4EMLOW/6.23/data/G4EMLOW6.23" type="path"/>
+  <runtime name="G4NEUTRONHPDATA" value="/public/V_CMSSW64/slc5_amd64_gcc472/external/geant4-G4NDL/4.0/data/G4NDL4.0-CMS" type="path"/>
+  <runtime name="G4NEUTRONXS" value="/public/V_CMSSW64/slc5_amd64_gcc472/external/geant4-G4NEUTRONXS/1.1/data/G4NEUTRONXS1.1" type="path"/>
+  <runtime name="G4LEVELGAMMADATA" value="/public/V_CMSSW64/slc5_amd64_gcc472/external/geant4-G4PhotonEvaporation/2.2/data/PhotonEvaporation2.2" type="path"/>
+  <runtime name="G4RADIOACTIVEDATA" value="/public/V_CMSSW64/slc5_amd64_gcc472/external/geant4-G4RadioactiveDecay/3.4/data/RadioactiveDecay3.4" type="path"/>
+</tool>

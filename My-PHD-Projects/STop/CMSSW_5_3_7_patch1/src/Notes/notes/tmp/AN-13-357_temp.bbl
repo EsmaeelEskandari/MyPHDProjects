@@ -1,0 +1,171 @@
+\providecommand{\href}[2]{#2}\begingroup\raggedright\begin{thebibliography}{10%
+}%
+\makeatletter
+\providecommand{\hrefCMSnoop }[0]{\@secondoftwo}%
+\makeatother
+\providecommand{\doi}{\texttt{doi:}\begingroup \urlstyle{tt}\Url}
+
+\bibitem{Martin:1997ns}
+\hrefCMSnoop {} {S.~P. Martin, ``{A Supersymmetry primer}'',}
+\href{http://www.arXiv.org/abs/hep-ph/9709356}{\texttt{ arXiv:hep-ph/9709356}}.
+%%CITATION = HEP-PH/9709356;%%.
+
+\bibitem{MT2_2011}
+\hrefCMSnoop {} {Casal {et~al.}, ``Search for supersymmetry in hadronic final
+  states using MT2 based on 4.4/fb of CMS data at sqrt(s) = 7 TeV'',} CMS
+  Analysis Note 2012/040, CERN, (2012).
+
+\bibitem{AN5Invfb}
+H.~Bakhshian\hrefCMSnoop {} { {et~al.}, ``A Hadronic Search for Direct Stop
+  with MT2 Variable'',} CMS Analysis Note 2013/140, CERN, (2013).
+
+\bibitem{Arnison:1983rp}
+\hrefCMSnoop {} {{ UA1 Collaboration} Collaboration, ``{Experimental
+  Observation of Isolated Large Transverse Energy Electrons with Associated
+  Missing Energy at s**(1/2) = 540-GeV}'',} \textit{ Phys.Lett.} \textbf{ B122}
+  (1983) 103--116,
+\href{http://dx.doi.org/10.1016/0370-2693(83)91177-2}{\doi{10.1016/0370-2693(8%
+3)91177-2}}.
+%%CITATION = PHLTA,B122,103;%%.
+
+\bibitem{Banner:1983jy}
+\hrefCMSnoop {} {{ UA2 Collaboration} Collaboration, ``{Observation of Single
+  Isolated Electrons of High Transverse Momentum in Events with Missing
+  Transverse Energy at the CERN anti-p p Collider}'',} \textit{ Phys.Lett.}
+  \textbf{ B122} (1983) 476--485,
+\href{http://dx.doi.org/10.1016/0370-2693(83)91605-2}{\doi{10.1016/0370-2693(8%
+3)91605-2}}.
+%%CITATION = PHLTA,B122,476;%%.
+
+\bibitem{Affolder:2000bpa}
+\hrefCMSnoop {} {{ CDF Collaboration} Collaboration, ``{Measurement of the $W$
+  boson mass with the Collider Detector at Fermilab}'',} \textit{ Phys.Rev.}
+  \textbf{ D64} (2001) 052001,
+  \href{http://dx.doi.org/10.1103/PhysRevD.64.052001}{\doi{10.1103/PhysRevD.64%
+.052001}},
+\href{http://www.arXiv.org/abs/hep-ex/0007044}{\texttt{ arXiv:hep-ex/0007044}}.
+%%CITATION = HEP-EX/0007044;%%.
+
+\bibitem{Abazov:2002bu}
+\hrefCMSnoop {} {{ D0 Collaboration} Collaboration, ``{Improved $W$ boson mass
+  measurement with the D\O\ detector}'',} \textit{ Phys.Rev.} \textbf{ D66}
+  (2002) 012001,
+  \href{http://dx.doi.org/10.1103/PhysRevD.66.012001}{\doi{10.1103/PhysRevD.66%
+.012001}},
+\href{http://www.arXiv.org/abs/hep-ex/0204014}{\texttt{ arXiv:hep-ex/0204014}}.
+%%CITATION = HEP-EX/0204014;%%.
+
+\bibitem{Lester:1999tx}
+\hrefCMSnoop {} {C.~Lester and D.~Summers, ``{Measuring masses of semiinvisibly
+  decaying particles pair produced at hadron colliders}'',} \textit{
+  Phys.Lett.} \textbf{ B463} (1999) 99--103,
+  \href{http://dx.doi.org/10.1016/S0370-2693(99)00945-4}{\doi{10.1016/S0370-26%
+93(99)00945-4}},
+\href{http://www.arXiv.org/abs/hep-ph/9906349}{\texttt{ arXiv:hep-ph/9906349}}.
+%%CITATION = HEP-PH/9906349;%%.
+
+\bibitem{Barr:2003rg}
+\hrefCMSnoop {} {A.~Barr, C.~Lester, and P.~Stephens, ``{m(T2): The Truth
+  behind the glamour}'',} \textit{ J.Phys.} \textbf{ G29} (2003) 2343--2363,
+  \href{http://dx.doi.org/10.1088/0954-3899/29/10/304}{\doi{10.1088/0954-3899/%
+29/10/304}},
+\href{http://www.arXiv.org/abs/hep-ph/0304226}{\texttt{ arXiv:hep-ph/0304226}}.
+%%CITATION = HEP-PH/0304226;%%.
+
+\bibitem{Cho:2007dh}
+\hrefCMSnoop {} {W.~S. Cho, K.~Choi, Y.~G. Kim, and C.~B. Park, ``{Measuring
+  superparticle masses at hadron collider using the transverse mass kink}'',}
+  \textit{ JHEP} \textbf{ 0802} (2008) 035,
+  \href{http://dx.doi.org/10.1088/1126-6708/2008/02/035}{\doi{10.1088/1126-670%
+8/2008/02/035}},
+\href{http://www.arXiv.org/abs/0711.4526}{\texttt{ arXiv:0711.4526}}.
+%%CITATION = ARXIV:0711.4526;%%.
+
+\bibitem{CMS-PAS-SUS-12-002}
+\href {http://cdsweb.cern.ch/record/1444892} {{ CMS} Collaboration, ``Search
+  for Supersymmetry in hadronic final states using {$M_{T2}$} with the {CMS}
+  detector at $\sqrt{s}$ = 7 {TeV}'',} CMS Physics Analysis Summary
+  CMS-PAS-SUS-12-002, CERN, (2012).
+
+\bibitem{Sjostrand:2006za}
+\hrefCMSnoop {} {T.~Sj{\"o}strand, S.~Mrenna, and P.~Skands, ``{PYTHIA} 6.4
+  physics and manual'',} \textit{ JHEP} \textbf{ 05} (2006) 026,
+  \href{http://dx.doi.org/10.1088/1126-6708/2006/05/026}{\doi{10.1088/1126-670%
+8/2006/05/026}},
+\href{http://www.arXiv.org/abs/hep-ph/0603175}{\texttt{ arXiv:hep-ph/0603175}}.
+%%CITATION = HEP-PH/0603175;%%.
+
+\bibitem{eIDs}
+\hrefCMSnoop {} {``Egamma Cut-Based Identification'',}.
+  \url{https://twiki.cern.ch/twiki/bin/view/CMS/EgammaCutBasedIdentification#E%
+lectron_ID_Working_Points}.
+
+\bibitem{c23}
+J.~Chou\hrefCMSnoop {} { {et~al.}}
+  \url{https://twiki.cern.ch/twiki/bin/view/CMS/HcalNoiseInfoLibrary}.
+
+\bibitem{c24}
+\hrefCMSnoop {} {D.~A. et~al.}
+
+\bibitem{c25}
+\hrefCMSnoop {} {}.
+  \url{https://twiki.cern.ch/twiki/bin/viewauth/CMS/MissingETOptionalFilters#R%
+ecovRecHitFilter}.
+
+\bibitem{c26}
+\hrefCMSnoop {} {}.
+  \url{https://twiki.cern.ch/twiki/bin/viewauth/CMS/MissingETOptionalFilters#T%
+racking_failure_filter}.
+
+\bibitem{c27}
+\hrefCMSnoop {} {C.~Bernet, L.~Gauthier, , and L.~Gouskos}.
+
+\bibitem{c28}
+\hrefCMSnoop {} {}.
+  \url{https://twiki.cern.ch/twiki/bin/view/CMS/SusyEcalMaskedCellSummary}.
+
+\bibitem{CMS-PAS-SUS-08-002}
+\hrefCMSnoop {} {{ CMS} Collaboration, ``Data-Driven Estimation of the
+  Invisible Z Background to the SUSY MET Plus Jets Search'',} CMS Physics
+  Analysis Summary CMS-PAS-SUS-08-002, CERN, (2008).
+
+\bibitem{CMS-PAS-SUS-10-001}
+\hrefCMSnoop {} {{ CMS} Collaboration, ``Performance of Methods for Data-Driven
+  Background Estimation in SUSY Searches'',} CMS Physics Analysis Summary
+  CMS-PAS-SUS-10-001, CERN, (2010).
+
+\bibitem{CMS-PAS-SUS-11-005}
+\hrefCMSnoop {} {{ CMS} Collaboration, ``Search for supersymmetry in
+  all-hadronic events with MT2'',} CMS Physics Analysis Summary
+  CMS-PAS-SUS-11-005, CERN, (2011).
+
+\bibitem{CMS-BTV-AN-12-470}
+\hrefCMSnoop {} {{ CMS} Collaboration, ``Combination of b-tagging efficiency
+  measurements in 2012 data at 8 TeV pp collision'',} CMS Physics Analysis
+  Summary CMS-BTV-AN-12-470, CERN, (2012).
+
+\bibitem{read:CLs}
+\hrefCMSnoop {} {A.~L. Read., ``{Presentation of search results: the CLs
+  technique.}'',} \textit{ J.Phys.G: Nucl. Part. Phys.} \textbf{ 28} (2002).
+
+\bibitem{cowan:asymptoticCLs}
+\hrefCMSnoop {} {E.~G. Glen~Cowan, Kyle~Cranmer and O.~Vitells, ``{Asymptotic
+  formulae for likelihood-based tests of new physics.}'',} \textit{
+  Eur.Phys.J.} \textbf{ C71:1554} (2011).
+
+\bibitem{higgspag:software}
+\hrefCMSnoop {} {``The RooStats-based statistics tools for Higgs PAG'',}.
+  \url{https://twiki.cern.ch/twiki/bin/viewauth/CMS/SWGuideHiggsAnalysisCombin%
+edLimit}.
+
+\bibitem{alves:sms}
+\hrefCMSnoop {} {{D.Alves et al.}, ``{Simplified Models for LHC New Physics
+  Searches.}'',} \href{http://www.arXiv.org/abs/1105.2838}{\texttt{
+  arXiv:1105.2838}}.
+
+\bibitem{cutandcountAN}
+\hrefCMSnoop {} {T.~S. W.~G. for Hadronic~Stops, ``Search for Direct Scalar
+  Top-quark Pair Production in the All-hadronic Channel at 8 TeV using a
+  Top-quark tagger'',} CMS Analysis Note 2012/490, CERN, (2012).
+
+\end{thebibliography}\endgroup

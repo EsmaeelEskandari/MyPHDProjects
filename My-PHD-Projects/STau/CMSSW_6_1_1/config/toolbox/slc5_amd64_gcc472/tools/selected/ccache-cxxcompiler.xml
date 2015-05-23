@@ -1,0 +1,7 @@
+  <tool name="ccache-cxxcompiler" version="" type="compiler">
+    <use name="gcc-cxxcompiler"/>
+    <client>
+      <environment name="CXX" value="/public/V_CMSSW64/slc5_amd64_gcc472/external/ccache/3.1.8/bin/c++"/>
+      <environment name="BUILDENV_CCACHE_BASEDIR" value="$LOCALTOP" handler="warn"/>
+    </client>
+  </tool>

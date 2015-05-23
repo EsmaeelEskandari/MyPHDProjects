@@ -1,0 +1,21 @@
+9 Nov 12:30 Saeid is touching all files to put some comments as guideline.
+9 Nov 13:00 Saeid stopped working. left for lunch.
+9 Nov 14:05 Saeid is back to office touching all files to put some comments as guideline.
+9 Nov 17:00 Saeid is done.
+10 Nov 9:33 Saeid is touching TurnOn.tex AN-13-357.bib
+10 Nov 10:10 Saeid is done withTurnOn.tex AN-13-357.bib
+10 Nov 12:01 Saeid is touching Tau.tex, SearchStrategy.tex, TurnOn.tex and Object.tex 
+10 Nov 12:55 Saeid is done
+18 Nov 12:16 Saeid is touching Selection.tex
+18 Nov 12:33 Saeid is done
+18 Nov 23:16 Nadjieh is touching Objects.tex
+18 Nov 00:02 Nadjieh is done with Objects.tex
+25 Nov 11:27 Maryam updated the LostLepton.tex
+25 Nov 15:03 Saeid is touching Tau.tex
+25 Nov 16:53 Saeid is done with Tau.tex
+04 Dec 13:31 Ali finished QCD.tex and Statistics.tex
+05 Dec 09:12 Ali: StatisticsFig and Statistics.tex are also finalized. 
+07 Dec 14:24 Saeid is going through the document.
+08 Dec 10:47 Saeid is done.
+14 Dec 13:50 Ali: QCD and Statistics are finalized.
+

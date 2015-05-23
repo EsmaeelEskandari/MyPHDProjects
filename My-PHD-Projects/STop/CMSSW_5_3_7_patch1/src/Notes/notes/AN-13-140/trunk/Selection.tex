@@ -1,0 +1,38 @@
+\section{Selection Cuts}
+\label{sect:cuts}
+In order to select signal events and suppres SM backgrounds, a set of cuts which are listed below, is applied.
+\begin{itemize}
+\item The preselection cuts which was outlined in Section~\ref{subsect:presel}.
+\item Offline trigger cuts mentioned in Section ~\ref{sect:triggerstudy}. They ask for at least 4 jets with $\abs\eta<2.4$
+%\item At least 4 jets with $p_T>40$ GeV and $\abs\eta<2.4$ are required which are asked to pass loose pf-jet id cuts.
+\item Among these set of jets, first and second leading jets are needed to have a \pT greater than $100$ GeV and $60$ GeV, respectively.
+\item It is also required that each jet with \pT $>$ 50 GeV to pass loose pf-jet id cuts.
+\item At least one b-quark jet is requested with \pT $>$ 20 GeV within the tracker acceptance, which is tagged by the Combined Secondary Vertex algorithm with a tight working point.
+\item The difference between \met and the vectorial \pT sum of the selected jets, electrons and muons should be below $70$ GeV.
+\item The \mindphifour of the four leading jets should be greater than 0.3. There is no requirement on the id or \pT of the jets when looking for the minimum azimuthal angle between \met and jets. 
+\item \met is required to be greater than $30$ GeV. 
+\item Leptons, being either electrons or muons, are vetoed.
+\item A cut on \mttwo $>$ 125 GeV is applied.
+\end{itemize}
+
+The effect of the selection cuts on different backgrounds is shown is Table \ref{Tab.CutFlow}
+
+\begin{table}[!htb]
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|c|}
+\hline
+Cut                             &      QCD   &$W$+jets & $Z$+jets & Top      & Total \\\hline 
+Trigger                         & 2042616.95 & 2559.28 & 386.45   & 27082.94 & 2072645.63\\ %SUSY   175.72 Data 2180881.00
+Jet ID                          & 1966405.52 & 2479.68 & 377.81   & 25990.10 & 1995253.11\\ %SUSY   175.14 Data 2104151.00
+BJet                            &  196238.91 &  167.61 &  32.57   & 17683.28 &  214122.37\\ %SUSY   126.36 Data 264679.00
+$|\met -MHT| <$ 70    &  166618.24 &  146.12 &  28.71   & 15207.03 &  182000.10\\ %SUSY   114.93 Data 237116.00
+\mindphifour$>$ 0.3&98656.62& 94.06 &  20.23   &  9319.21 &  108090.12\\ %SUSY    89.83 Data 138859.00
+$\met >$ 30               &   48256.18 &   79.17 &  19.08   &  5578.78 &   53933.20\\ %SUSY    89.83 Data 64638.00
+Lepton Veto                     &   48132.17 &   51.24 &  19.08   & 4566.21  &   52768.71\\ %SUSY(350-50)   79.72  Data   63809.00
+$M_{T2} >$ 125                   &   41.21    &   6.24  &   5.62   &  141.86  &     194.94\\ %SUSY(350-50)   33.56  Data   143.00
+\hline
+\end{tabular}
+\caption{Event yields after applying different cuts. "Trigger" contains all of the preselections and offline trigger cuts.}
+\label{Tab.CutFlow}
+\end{center}
+\end{table}

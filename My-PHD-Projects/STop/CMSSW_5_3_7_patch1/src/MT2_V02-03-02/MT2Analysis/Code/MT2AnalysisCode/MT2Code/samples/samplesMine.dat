@@ -1,0 +1,22 @@
+############################################################################################
+GENERAL
+Path             ///dataLOCAL/MT2Top/RootFiles/
+#__________________________________________________________________________________________
+# list of samples
+#
+
+
+# -------- electroweak --------
+SAMPLE
+Name		WJetsToLNu_HT_200To250
+SName		Wtolnu
+ShapeName	WJets
+File            NewTrees20Invfb1stTry/WJetsToLNu-HT-200To250-8TeV-madgraph-Summer12-DR53X-PU-S10-START53-V7C-v1-2.root
+Xsection  	90.27
+Kfact           1.
+Lumi            19600.0
+Type            mc
+Color		417
+
+
+

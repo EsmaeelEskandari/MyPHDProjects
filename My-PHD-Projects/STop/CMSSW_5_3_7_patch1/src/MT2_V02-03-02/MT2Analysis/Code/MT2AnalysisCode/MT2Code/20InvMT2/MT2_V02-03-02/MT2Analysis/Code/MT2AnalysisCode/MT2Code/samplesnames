@@ -1,0 +1,420 @@
+ ----  
+  Path ///public/MT2Top/RootFiles/
+ ---- 
+  New sample added: QCD_Pt_120to170
+   Sample no.      0
+   Short name:     QCD
+   File:           /public/MT2Top/RootFiles/NewTrees20Invfb1stTry/QCD-Pt-120to170-TuneZ2star-8TeV-pythia6-Summer12-DR53X-PU-S10-START53-V7A-v3_small.root
+   Events:         5.98573e+06
+   Events in tree: 1207
+   Xsection:       156293
+   Lumi:           19600
+   kfactor:        1.18356
+   avg PU weight:  0.988564
+   type:           mc
+   Color:          401
+ ---- 
+  New sample added: QCD_Pt_170to300
+   Sample no.      1
+   Short name:     QCD
+   File:           /public/MT2Top/RootFiles/NewTrees20Invfb1stTry/QCD-Pt-170to300-TuneZ2star-8TeV-pythia6-v2-Summer12-DR53X-PU-S10-START53-V7A-v1_small.root
+   Events:         1.99203e+07
+   Events in tree: 71176
+   Xsection:       34138.1
+   Lumi:           19600
+   kfactor:        1.18356
+   avg PU weight:  0.988559
+   type:           mc
+   Color:          401
+ ---- 
+  New sample added: QCD_Pt_300to470
+   Sample no.      2
+   Short name:     QCD
+   File:           /public/MT2Top/RootFiles/NewTrees20Invfb1stTry/QCD-Pt-300to470-TuneZ2star-8TeV-pythia6-v3-Summer12-DR53X-PU-S10-START53-V7A-v1_small.root
+   Events:         1.98111e+07
+   Events in tree: 453459
+   Xsection:       1759.55
+   Lumi:           19600
+   kfactor:        1.18356
+   avg PU weight:  0.988644
+   type:           mc
+   Color:          401
+ ---- 
+  New sample added: QCD_Pt_470to600
+   Sample no.      3
+   Short name:     QCD
+   File:           /public/MT2Top/RootFiles/NewTrees20Invfb1stTry/QCD-Pt-470to600-TuneZ2star-8TeV-pythia6-Summer12-DR53X-PU-S10-START53-V7A-v2_small.root
+   Events:         3.98819e+06
+   Events in tree: 180700
+   Xsection:       113.879
+   Lumi:           19600
+   kfactor:        1.18356
+   avg PU weight:  0.988902
+   type:           mc
+   Color:          401
+ ---- 
+  New sample added: QCD_Pt_600to800
+   Sample no.      4
+   Short name:     QCD
+   File:           /public/MT2Top/RootFiles/NewTrees20Invfb1stTry/QCD-Pt-600to800-TuneZ2star-8TeV-pythia6-Summer12-DR53X-PU-S10-START53-V7A-v2_small.root
+   Events:         3.9902e+06
+   Events in tree: 230188
+   Xsection:       26.9921
+   Lumi:           19600
+   kfactor:        1.18356
+   avg PU weight:  0.988791
+   type:           mc
+   Color:          401
+ ---- 
+  New sample added: QCD_Pt_800to1000
+   Sample no.      5
+   Short name:     QCD
+   File:           /public/MT2Top/RootFiles/NewTrees20Invfb1stTry/QCD-Pt-800to1000-TuneZ2star-8TeV-pythia6-Summer12-DR53X-PU-S10-START53-V7A-v2_small.root
+   Events:         3.99523e+06
+   Events in tree: 262098
+   Xsection:       3.55004
+   Lumi:           19600
+   kfactor:        1.18356
+   avg PU weight:  0.988607
+   type:           mc
+   Color:          401
+ ---- 
+  New sample added: QCD_Pt_1000to1400
+   Sample no.      6
+   Short name:     QCD
+   File:           /public/MT2Top/RootFiles/NewTrees20Invfb1stTry/QCD-Pt-1000to1400-TuneZ2star-8TeV-pythia6-Summer12-DR53X-PU-S10-START53-V7A-v1_small.root
+   Events:         1.96409e+06
+   Events in tree: 130257
+   Xsection:       0.737844
+   Lumi:           19600
+   kfactor:        1.18356
+   avg PU weight:  0.988619
+   type:           mc
+   Color:          401
+ ---- 
+  New sample added: QCD_Pt_1400to1800
+   Sample no.      7
+   Short name:     QCD
+   File:           /public/MT2Top/RootFiles/NewTrees20Invfb1stTry/QCD-Pt-1400to1800-TuneZ2star-8TeV-pythia6-Summer12-DR53X-PU-S10-START53-V7A-v1_small.root
+   Events:         1.9984e+06
+   Events in tree: 115096
+   Xsection:       0.0335223
+   Lumi:           19600
+   kfactor:        1.18356
+   avg PU weight:  0.988698
+   type:           mc
+   Color:          401
+ ---- 
+  New sample added: QCD_Pt_1800
+   Sample no.      8
+   Short name:     QCD
+   File:           /public/MT2Top/RootFiles/NewTrees20Invfb1stTry/QCD-Pt-1800-TuneZ2star-8TeV-pythia6-Summer12-DR53X-PU-S10-START53-V7A-v1_small.root
+   Events:         977586
+   Events in tree: 42668
+   Xsection:       0.001829
+   Lumi:           19600
+   kfactor:        1.18356
+   avg PU weight:  0.98863
+   type:           mc
+   Color:          401
+ ---- 
+  New sample added: WJetsToLNu_HT_200To250
+   Sample no.      9
+   Short name:     Wtolnu
+   File:           /public/MT2Top/RootFiles/NewTrees20Invfb1stTry/WJetsToLNu-HT-200To250-8TeV-madgraph-Summer12-DR53X-PU-S10-START53-V7C-v1-2_small.root
+   Events:         1.00264e+07
+   Events in tree: 11
+   Xsection:       90.27
+   Lumi:           19600
+   kfactor:        1
+   avg PU weight:  0.988612
+   type:           mc
+   Color:          417
+ ---- 
+  New sample added: WJetsToLNu_HT_250To300
+   Sample no.      10
+   Short name:     Wtolnu
+   File:           /public/MT2Top/RootFiles/NewTrees20Invfb1stTry/WJetsToLNu-HT-250To300-8TeV-madgraph-v2-Summer12-DR53X-PU-S10-START53-V7A-v1_small.root
+   Events:         4.80761e+06
+   Events in tree: 16
+   Xsection:       48.01
+   Lumi:           19600
+   kfactor:        1
+   avg PU weight:  0.988631
+   type:           mc
+   Color:          417
+ ---- 
+  New sample added: WJetsToLNu_HT_300To400
+   Sample no.      11
+   Short name:     Wtolnu
+   File:           /public/MT2Top/RootFiles/NewTrees20Invfb1stTry/WJetsToLNu-HT-300To400-8TeV-madgraph-v2-Summer12-DR53X-PU-S10-START53-V7A-v1_small.root
+   Events:         5.14102e+06
+   Events in tree: 706
+   Xsection:       38.3
+   Lumi:           19600
+   kfactor:        1
+   avg PU weight:  0.988698
+   type:           mc
+   Color:          417
+ ---- 
+  New sample added: WJetsToLNu_HT_400
+   Sample no.      12
+   Short name:     Wtolnu
+   File:           /public/MT2Top/RootFiles/NewTrees20Invfb1stTry/WJetsToLNu-HT-400ToInf-8TeV-madgraph-Summer12-DR53X-PU-S10-START53-V7A-v1_small.root
+   Events:         1.64781e+06
+   Events in tree: 22070
+   Xsection:       25.22
+   Lumi:           19600
+   kfactor:        1
+   avg PU weight:  0.988742
+   type:           mc
+   Color:          417
+ ---- 
+  New sample added: DYToLL
+   Sample no.      13
+   Short name:     DY
+   File:           /public/MT2Top/RootFiles/NewTrees20Invfb1stTry/DYJetsToLL-M-10To50filter-8TeV-madgraph-Summer12-DR53X-PU-S10-START53-V7A-v1_small.root
+   Events:         7.10251e+06
+   Events in tree: 24
+   Xsection:       876.8
+   Lumi:           19600
+   kfactor:        1
+   avg PU weight:  0.988439
+   type:           mc
+   Color:          419
+ ---- 
+  New sample added: DYToLL
+   Sample no.      14
+   Short name:     DY
+   File:           /public/MT2Top/RootFiles/NewTrees20Invfb1stTry/DYJetsToLL-M-50-TuneZ2Star-8TeV-madgraph-tarball-Summer12-DR53X-PU-S10-START53-V7A-v1_small.root
+   Events:         2.99265e+07
+   Events in tree: 446
+   Xsection:       3503.71
+   Lumi:           19600
+   kfactor:        1
+   avg PU weight:  0.988657
+   type:           mc
+   Color:          419
+ ---- 
+  New sample added: DYToNuNu_HT_50To100
+   Sample no.      15
+   Short name:     DY
+   File:           /public/MT2Top/RootFiles/NewTrees20Invfb1stTry/ZJetsToNuNu-50-HT-100-TuneZ2Star-8TeV-madgraph-ext-Summer12-DR53X-PU-S10-START53-V7A-v1_small.root
+   Events:         2.0023e+07
+   Events in tree: 2
+   Xsection:       381.2
+   Lumi:           19600
+   kfactor:        1
+   avg PU weight:  0.988685
+   type:           mc
+   Color:          419
+ ---- 
+  New sample added: DYToNuNu_HT_100To200
+   Sample no.      16
+   Short name:     DY
+   File:           /public/MT2Top/RootFiles/NewTrees20Invfb1stTry/ZJetsToNuNu-100-HT-200-TuneZ2Star-8TeV-madgraph-ext-Summer12-DR53X-PU-S10-START53-V7C-v1_small.root
+   Events:         5.57141e+06
+   Events in tree: 0
+   Xsection:       160.3
+   Lumi:           19600
+   kfactor:        1
+   avg PU weight:  0.988703
+   type:           mc
+   Color:          419
+ ---- 
+  New sample added: DYToNuNu_HT_200To400
+   Sample no.      17
+   Short name:     DY
+   File:           /public/MT2Top/RootFiles/NewTrees20Invfb1stTry/ZJetsToNuNu-200-HT-400-TuneZ2Star-8TeV-madgraph-ext-Summer12-DR53X-PU-S10-START53-V7A-v1_small.root
+   Events:         4.68973e+06
+   Events in tree: 38
+   Xsection:       41.49
+   Lumi:           19600
+   kfactor:        1
+   avg PU weight:  0.98868
+   type:           mc
+   Color:          419
+ ---- 
+  New sample added: DYToNuNu_HT_400
+   Sample no.      18
+   Short name:     DY
+   File:           /public/MT2Top/RootFiles/NewTrees20Invfb1stTry/ZJetsToNuNu-400-HT-inf-TuneZ2Star-8TeV-madgraph-ext-Summer12-DR53X-PU-S10-START53-V7A-v1_small.root
+   Events:         4.08878e+06
+   Events in tree: 45592
+   Xsection:       5.274
+   Lumi:           19600
+   kfactor:        1
+   avg PU weight:  0.988386
+   type:           mc
+   Color:          419
+ ---- 
+  New sample added: TTbar
+   Sample no.      19
+   Short name:     Top
+   File:           /public/MT2Top/RootFiles/NewTrees20Invfb1stTry/TTJets-MassiveBinDECAY-TuneZ2star-8TeV-madgraph-tauola-Summer12-DR53X-PU-S10-START53-V7A-v1_small.root
+   Events:         6.89549e+06
+   Events in tree: 74647
+   Xsection:       234
+   Lumi:           19600
+   kfactor:        1
+   avg PU weight:  0.988455
+   type:           mc
+   Color:          600
+ ---- 
+  New sample added: SingleTop_s
+   Sample no.      20
+   Short name:     Top
+   File:           /public/MT2Top/RootFiles/NewTrees20Invfb1stTry/T-s-channel-TuneZ2star-8TeV-powheg-tauola-Summer12-DR53X-PU-S10-START53-V7A-v1_small.root
+   Events:         259961
+   Events in tree: 450
+   Xsection:       2.82
+   Lumi:           19600
+   kfactor:        1
+   avg PU weight:  0.98817
+   type:           mc
+   Color:          600
+ ---- 
+  New sample added: SingleTopbar_s
+   Sample no.      21
+   Short name:     Top
+   File:           /public/MT2Top/RootFiles/NewTrees20Invfb1stTry/Tbar-s-channel-TuneZ2star-8TeV-powheg-tauola-Summer12-DR53X-PU-S10-START53-V7A-v1_small.root
+   Events:         139974
+   Events in tree: 173
+   Xsection:       1.57
+   Lumi:           19600
+   kfactor:        1
+   avg PU weight:  0.989493
+   type:           mc
+   Color:          600
+ ---- 
+  New sample added: SingleTop_t
+   Sample no.      22
+   Short name:     Top
+   File:           /public/MT2Top/RootFiles/NewTrees20Invfb1stTry/T-t-channel-TuneZ2star-8TeV-powheg-tauola-Summer12-DR53X-PU-S10-START53-V7A-v3_small.root
+   Events:         99876
+   Events in tree: 69
+   Xsection:       47
+   Lumi:           19600
+   kfactor:        1
+   avg PU weight:  0.98961
+   type:           mc
+   Color:          600
+ ---- 
+  New sample added: SingleTopbar_t
+   Sample no.      23
+   Short name:     Top
+   File:           /public/MT2Top/RootFiles/NewTrees20Invfb1stTry/Tbar-t-channel-TuneZ2star-8TeV-powheg-tauola-Summer12-DR53X-PU-S10-START53-V7A-v1_small.root
+   Events:         1.93507e+06
+   Events in tree: 1157
+   Xsection:       25
+   Lumi:           19600
+   kfactor:        1
+   avg PU weight:  0.988676
+   type:           mc
+   Color:          600
+ ---- 
+  New sample added: SingleTop_tW
+   Sample no.      24
+   Short name:     Top
+   File:           /public/MT2Top/RootFiles/NewTrees20Invfb1stTry/T-tW-channel-DR-TuneZ2star-8TeV-powheg-tauola-Summer12-DR53X-PU-S10-START53-V7A-v1_small.root
+   Events:         497658
+   Events in tree: 2311
+   Xsection:       10.7
+   Lumi:           19600
+   kfactor:        1
+   avg PU weight:  0.988543
+   type:           mc
+   Color:          600
+ ---- 
+  New sample added: SingleTopbar_tW
+   Sample no.      25
+   Short name:     Top
+   File:           /public/MT2Top/RootFiles/NewTrees20Invfb1stTry/Tbar-tW-channel-DR-TuneZ2star-8TeV-powheg-tauola-Summer12-DR53X-PU-S10-START53-V7A-v1_small.root
+   Events:         493460
+   Events in tree: 2242
+   Xsection:       10.7
+   Lumi:           19600
+   kfactor:        1
+   avg PU weight:  0.988361
+   type:           mc
+   Color:          600
+ ---- 
+  New sample added: Run2012A_13Jul
+   Sample no.      26
+   Short name:     MJ-Data
+   File:           /public/MT2Top/RootFiles/NewTrees20Invfb1stTry/MultiJet-Run2012A-13Jul2012-v1_small.root
+   Events:         1
+   Events in tree: 150040
+   Xsection:       1
+   Lumi:           1
+   kfactor:        1
+   avg PU weight:  1
+   type:           data
+   Color:          1
+ ---- 
+  New sample added: Run2012A_06Aug
+   Sample no.      27
+   Short name:     MJ-Data
+   File:           /public/MT2Top/RootFiles/NewTrees20Invfb1stTry/MultiJet-Run2012A-recover-06Aug2012-v1_small.root
+   Events:         1
+   Events in tree: 15041
+   Xsection:       1
+   Lumi:           1
+   kfactor:        1
+   avg PU weight:  1
+   type:           data
+   Color:          1
+ ---- 
+  New sample added: Run2012B
+   Sample no.      28
+   Short name:     MJ-Data
+   File:           /public/MT2Top/RootFiles/NewTrees20Invfb1stTry/MultiJet-Run2012B-13Jul2012-v1_small.root
+   Events:         1
+   Events in tree: 858487
+   Xsection:       1
+   Lumi:           1
+   kfactor:        1
+   avg PU weight:  1
+   type:           data
+   Color:          1
+ ---- 
+  New sample added: Run2012C_24Aug2012
+   Sample no.      29
+   Short name:     MJ-Data
+   File:           /public/MT2Top/RootFiles/NewTrees20Invfb1stTry/MultiJet-Run2012C-24Aug2012-v1_small.root
+   Events:         1
+   Events in tree: 93171
+   Xsection:       1
+   Lumi:           1
+   kfactor:        1
+   avg PU weight:  1
+   type:           data
+   Color:          1
+ ---- 
+  New sample added: Run2012C_PromptReco
+   Sample no.      30
+   Short name:     MJ-Data
+   File:           /public/MT2Top/RootFiles/NewTrees20Invfb1stTry/MultiJet-Run2012C-PromptReco-v2_small.root
+   Events:         1
+   Events in tree: 1277211
+   Xsection:       1
+   Lumi:           1
+   kfactor:        1
+   avg PU weight:  1
+   type:           data
+   Color:          1
+ ---- 
+  New sample added: Run2012D
+   Sample no.      31
+   Short name:     MJ-Data
+   File:           /public/MT2Top/RootFiles/NewTrees20Invfb1stTry/MultiJet-Run2012D-PromptReco-v1_small.root
+   Events:         1
+   Events in tree: 1480410
+   Xsection:       1
+   Lumi:           1
+   kfactor:        1
+   avg PU weight:  1
+   type:           data
+   Color:          1
+------------------------------------
+

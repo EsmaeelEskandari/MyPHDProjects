@@ -1,0 +1,72 @@
+\section{Datasets and MC samples}
+\label{sect:dataMC}
+To reconstruct the objects, the CMSSW\_5\_3\_7\_patch5 is used for both data and MC.
+The data used in the analysis corresponds to 20 \invfb of proton-proton collisions in the center of mass energy of $\sqrt{s}$ = 8 TeV 
+which was taken before summer 2012. The list of the datasets, the run range and the corresponding integrated luminosities are as follow:
+\begin{itemize}
+\item /MultiJet/Run2012A-13Jul2012-v1/AOD (190456-193621, 952.6 \invpb) 
+\item /MultiJet/Run2012A-recover-06Aug2012-v1/AOD (190782-190949, 95.4 \invpb) 
+\item /MultiJet/Run2012B-13Jul2012-v1/AOD (193834-196531, 4.94 \invfb)
+\item /MultiJet/Run2012C-24Aug2012-v1/AOD (198022-198523, 520.4 \invpb)
+\item /MultiJet/Run2012C-PromptReco-v2/AOD (198941-203742, 6.9 \invfb)
+\item /MultiJet/Run2012D-PromptReco-v1/AOD (203777-208686, 7.7 \invfb)
+\end{itemize}
+
+Only the lumisections with fully operative CMS subdetectors are used in this analysis (golden JSON files). To optimize the search method, MC 
+samples are used for different Standard Model backgrounds and signals. These samples are officially generated and reconstructed in the CMS
+collaboration. The full list of the samples and their cross sections are given in Table \ref{Tab.MCSamples}. For most of the samples the most 
+accurate calculation of the cross sections available in the literature (usually NLO) are used.
+
+\begin{table}[!htb]
+\begin{center}
+\caption{List of the MC samples used in this analysis.}
+\label{Tab.MCSamples}
+\begin{tabular}{|l|c|}
+\hline
+Sample name                                                                    & $\sigma$ (pb) \\\hline
+QCD &  \\\hline
+QCD-Pt-120to170-TuneZ2star-8TeV-pythia6- & \\
+~~~~~~~Summer12-DR53X-PU-S10-START53-V7A-v3   & 156293.3\\
+QCD-Pt-170to300-TuneZ2star-8TeV-pythia6-v2-...-v1& 34138.15\\
+QCD-Pt-300to470-TuneZ2star-8TeV-pythia6-v3-...-v1& 1759.55\\
+QCD-Pt-470to600-TuneZ2star-8TeV-pythia6-...-v2   & 113.88 \\
+QCD-Pt-600to800-TuneZ2star-8TeV-pythia6-...-v2   & 26.99\\
+QCD-Pt-800to1000-TuneZ2star-8TeV-pythia6-...-v2  & 3.55\\
+QCD-Pt-1000to1400-TuneZ2star-8TeV-pythia6-...-v1 & 0.74\\
+QCD-Pt-1400to1800-TuneZ2star-8TeV-pythia6-...-v1 & 0.034\\
+QCD-Pt-1800-TuneZ2star-8TeV-pythia6-...-v1       & 0.0018\\\hline
+Top &  \\\hline
+TTJets-MassiveBinDECAY-TuneZ2star-8TeV-madgraph-tauola- & \\
+~~~~~~~Summer12-DR53X-PU-S10-START53-V7A-v1                & 234\\
+T-t-channel-TuneZ2star-8TeV-powheg-tauola-...-v3    &  47\\
+Tbar-t-channel-TuneZ2star-8TeV-powheg-tauola-...    & 25.00\\
+T-tW-channel-DR-TuneZ2star-8TeV-powheg-tauola-...   & 10.7\\
+Tbar-tW-channel-DR-TuneZ2star-8TeV-powheg-tauola-...& 10.7\\
+T-s-channel-TuneZ2star-8TeV-powheg-tauola-...       & 2.82\\
+Tbar-s-channel-TuneZ2star-8TeV-powheg-tauola-...    & 1.57\\\hline
+WJets& \\\hline
+WJetsToLNu-HT-250To300-8TeV-madgraph-v2- & \\
+~~~~~~~Summer12-DR53X-PU-S10-START53-V7A-v1   & 48.01 \\
+WJetsToLNu-HT-300To400-8TeV-madgraph-v2-...                                    & 38.3  \\
+WJetsToLNu-HT-400ToInf-8TeV-madgraph-...                                       & 25.22 \\
+WJetsToLNu-HT-200To250-8TeV-madgraph-...v1-2                                   & 90.27 \\\hline
+ZJets & \\\hline
+DYJetsToLL-M-10To50filter-8TeV-madgraph-... & \\
+~~~~~~~Summer12-DR53X-PU-S10-START53-V7A-v1             & 876.8\\
+DYJetsToLL-M-50-TuneZ2Star-8TeV-madgraph-tarball-  ...              & 3503.71\\
+ZJetsToNuNu-50-HT-100-TuneZ2Star-8TeV-madgraph-ext-...              & 381.2\\
+ZJetsToNuNu-200-HT-400-TuneZ2Star-8TeV-madgraph-ext-...             & 41.49\\
+ZJetsToNuNu-400-HT-inf-TuneZ2Star-8TeV-madgraph-ext-...             & 5.27\\
+ZJetsToNuNu-100-HT-200-TuneZ2Star-8TeV-madgraph-ext-...V7C-v1          & 160.3\\\hline
+SMS & \\\hline
+SMS-T2tt-mStop-150to350-mLSP-0to250-8TeV-Pythia6Z- & \\
+~~~~~~~Summer12-START52-V9-FSIM-v1-2          &  \\
+SMS-T2tt-mStop-375to475-mLSP-0to375-8TeV-Pythia6Z-...          &  \\
+SMS-T2tt-mStop-500to650-mLSP-0to225-8TeV-Pythia6Z-...          &  \\
+SMS-T2tt-mStop-500to650-mLSP-250to550-8TeV-Pythia6Z-...        &  \\
+SMS-T2tt-mStop-675to800-mLSP-0to275-8TeV-Pythia6Z-...          &  \\
+SMS-T2tt-mStop-675to800-mLSP-300to700-8TeV-Pythia6Z-...        &  \\
+\hline
+\end{tabular}
+\end{center}
+\end{table}

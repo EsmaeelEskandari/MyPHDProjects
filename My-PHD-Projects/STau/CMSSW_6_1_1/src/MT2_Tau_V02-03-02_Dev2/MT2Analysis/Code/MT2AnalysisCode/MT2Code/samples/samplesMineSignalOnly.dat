@@ -1,0 +1,29 @@
+#########################################################################################
+GENERAL
+Path         ///hadoop/cms/store/user/hbakhshi/
+________________________________________________________________________________________
+# list of samples
+## -------- SMS --------
+
+#SAMPLE
+Name            TStau
+SName           SUSY
+ShapeName       Signal
+File            TauTau_V3_1/SMS-TChipChimStauSnu-mChi-120to500-mLSP-1to480-x-050-TuneZ2star-8TeV-pythia6-tauolapp_NBJetsCSVM0_MET30.root
+Xsection        0.152 pb
+Kfact           1.
+Lumi            19600.0
+Type            susy
+Color           1
+
+## --------- Data ---------------------------
+SAMPLE
+Name		Run2012A_SingleElectron
+SName		SingleElectron-Data
+ShapeName	Data
+File            SingleElectron/V03-09-01_SingleElectron-Run2012D/03ad274a2307e873b662a437669f4a35_MT2tree_V3_2V1_02/MT2tree_*.root
+Xsection  	1.
+Kfact           1.	
+Lumi            1.
+Type            data
+Color		1

@@ -1,0 +1,952 @@
+::: TTbar , lept ele process Top
+======================================================================
++++ Proccessing event 0
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 1
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 2
+fMT2tree->TopDecayModeResult(11) 1
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 3
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 1
++++ Proccessing event 4
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 5
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 6
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 7
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
+ leptonic ----------
+ leptonic ----------
++++ Proccessing event 8
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 9
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 10
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 11
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 12
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 1
+ leptonic ----------
++++ Proccessing event 13
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
+ hadronic !!!!!!!!!!
++++ Proccessing event 14
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 1
++++ Proccessing event 15
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 16
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 17
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 1
++++ Proccessing event 18
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 19
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 1
++++ Proccessing event 20
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 21
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 22
+fMT2tree->TopDecayModeResult(11) 1
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 23
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 1
+ leptonic ----------
++++ Proccessing event 24
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 25
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 26
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 27
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 28
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 1
++++ Proccessing event 29
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 30
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 31
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 32
+fMT2tree->TopDecayModeResult(11) 1
+fMT2tree->TopDecayModeResult(13) 0
+ hadronic !!!!!!!!!!
++++ Proccessing event 33
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 1
+ leptonic ----------
++++ Proccessing event 34
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 35
+fMT2tree->TopDecayModeResult(11) 1
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 36
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 37
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 38
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 39
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 40
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 41
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 42
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 43
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
+ hadronic !!!!!!!!!!
++++ Proccessing event 44
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 45
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 46
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 1
+ leptonic ----------
++++ Proccessing event 47
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 48
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 49
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
+ hadronic !!!!!!!!!!
++++ Proccessing event 50
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 51
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 52
+fMT2tree->TopDecayModeResult(11) 1
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 53
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
+ hadronic !!!!!!!!!!
++++ Proccessing event 54
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 1
++++ Proccessing event 55
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 1
++++ Proccessing event 56
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
+ hadronic !!!!!!!!!!
++++ Proccessing event 57
+fMT2tree->TopDecayModeResult(11) 1
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 58
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 59
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 60
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 61
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 62
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 63
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 64
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 65
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 66
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 67
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 68
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 1
++++ Proccessing event 69
+fMT2tree->TopDecayModeResult(11) 1
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 70
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 71
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 72
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 73
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 74
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 75
+fMT2tree->TopDecayModeResult(11) 1
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 76
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 1
++++ Proccessing event 77
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 78
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
+ hadronic !!!!!!!!!!
++++ Proccessing event 79
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 1
++++ Proccessing event 80
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 81
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 82
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 83
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 84
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 85
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 86
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 87
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 88
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 1
++++ Proccessing event 89
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 90
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 91
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 92
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 93
+fMT2tree->TopDecayModeResult(11) 1
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 94
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
+ hadronic !!!!!!!!!!
++++ Proccessing event 95
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
+ hadronic !!!!!!!!!!
++++ Proccessing event 96
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
+ hadronic !!!!!!!!!!
++++ Proccessing event 97
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
+ hadronic !!!!!!!!!!
++++ Proccessing event 98
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 99
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 100
+fMT2tree->TopDecayModeResult(11) 1
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 101
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 102
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 103
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 104
+fMT2tree->TopDecayModeResult(11) 1
+fMT2tree->TopDecayModeResult(13) 0
+ leptonic ----------
+ hadronic !!!!!!!!!!
++++ Proccessing event 105
+fMT2tree->TopDecayModeResult(11) 1
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 106
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 107
+fMT2tree->TopDecayModeResult(11) 1
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 108
+fMT2tree->TopDecayModeResult(11) 1
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 109
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 110
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 111
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 112
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 113
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 114
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 115
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
+ hadronic !!!!!!!!!!
++++ Proccessing event 116
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 117
+fMT2tree->TopDecayModeResult(11) 1
+fMT2tree->TopDecayModeResult(13) 0
+ leptonic ----------
++++ Proccessing event 118
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 119
+fMT2tree->TopDecayModeResult(11) 1
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 120
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 121
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 122
+fMT2tree->TopDecayModeResult(11) 1
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 123
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 124
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 125
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 126
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
+ hadronic !!!!!!!!!!
++++ Proccessing event 127
+fMT2tree->TopDecayModeResult(11) 1
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 128
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 129
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
+ hadronic !!!!!!!!!!
++++ Proccessing event 130
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
+ leptonic ----------
++++ Proccessing event 131
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 132
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 1
++++ Proccessing event 133
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 134
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 1
++++ Proccessing event 135
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 136
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 137
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 138
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
+ leptonic ----------
++++ Proccessing event 139
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 140
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 141
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 142
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 143
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 144
+fMT2tree->TopDecayModeResult(11) 1
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 145
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 146
+fMT2tree->TopDecayModeResult(11) 1
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 147
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 148
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 1
++++ Proccessing event 149
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 150
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 151
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 1
++++ Proccessing event 152
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 153
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 154
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 155
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 156
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 157
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 158
+fMT2tree->TopDecayModeResult(11) 1
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 159
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 160
+fMT2tree->TopDecayModeResult(11) 1
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 161
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 162
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 1
++++ Proccessing event 163
+fMT2tree->TopDecayModeResult(11) 1
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 164
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 165
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 1
++++ Proccessing event 166
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 167
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 1
++++ Proccessing event 168
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 169
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 170
+fMT2tree->TopDecayModeResult(11) 1
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 171
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 172
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 173
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 174
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 175
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 176
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 177
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 178
+fMT2tree->TopDecayModeResult(11) 1
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 179
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 180
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 181
+fMT2tree->TopDecayModeResult(11) 1
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 182
+fMT2tree->TopDecayModeResult(11) 1
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 183
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
+ hadronic !!!!!!!!!!
++++ Proccessing event 184
+fMT2tree->TopDecayModeResult(11) 1
+fMT2tree->TopDecayModeResult(13) 0
+ leptonic ----------
++++ Proccessing event 185
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 186
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 187
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 188
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
+ hadronic !!!!!!!!!!
++++ Proccessing event 189
+fMT2tree->TopDecayModeResult(11) 1
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 190
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 1
++++ Proccessing event 191
+fMT2tree->TopDecayModeResult(11) 1
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 192
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
+ hadronic !!!!!!!!!!
++++ Proccessing event 193
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 194
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 195
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 196
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 197
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 198
+fMT2tree->TopDecayModeResult(11) 1
+fMT2tree->TopDecayModeResult(13) 0
+ hadronic !!!!!!!!!!
++++ Proccessing event 199
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 200
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 201
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
+ hadronic !!!!!!!!!!
++++ Proccessing event 202
+fMT2tree->TopDecayModeResult(11) 1
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 203
+fMT2tree->TopDecayModeResult(11) 1
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 204
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
+ hadronic !!!!!!!!!!
++++ Proccessing event 205
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 206
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 207
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 1
++++ Proccessing event 208
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 209
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 210
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 1
++++ Proccessing event 211
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 212
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 213
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 1
++++ Proccessing event 214
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 215
+fMT2tree->TopDecayModeResult(11) 1
+fMT2tree->TopDecayModeResult(13) 0
+ leptonic ----------
++++ Proccessing event 216
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 1
++++ Proccessing event 217
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 218
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 219
+fMT2tree->TopDecayModeResult(11) 1
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 220
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 221
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 222
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 223
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 224
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 1
+ leptonic ----------
++++ Proccessing event 225
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 226
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 1
++++ Proccessing event 227
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 228
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 229
+fMT2tree->TopDecayModeResult(11) 1
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 230
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 231
+fMT2tree->TopDecayModeResult(11) 1
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 232
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 233
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 234
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 235
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 236
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 237
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 238
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 1
++++ Proccessing event 239
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
+ hadronic !!!!!!!!!!
++++ Proccessing event 240
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 241
+fMT2tree->TopDecayModeResult(11) 1
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 242
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 243
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
+ leptonic ----------
++++ Proccessing event 244
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
+ hadronic !!!!!!!!!!
++++ Proccessing event 245
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 246
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 247
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 248
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 249
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 250
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 1
++++ Proccessing event 251
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
+ hadronic !!!!!!!!!!
++++ Proccessing event 252
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 253
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 254
+fMT2tree->TopDecayModeResult(11) 1
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 255
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 256
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 257
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
+ hadronic !!!!!!!!!!
++++ Proccessing event 258
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 259
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 260
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 261
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 262
+fMT2tree->TopDecayModeResult(11) 1
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 263
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 264
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 265
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 266
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 267
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 268
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 1
++++ Proccessing event 269
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 1
++++ Proccessing event 270
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
+ hadronic !!!!!!!!!!
++++ Proccessing event 271
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 272
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 273
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 274
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 275
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 1
++++ Proccessing event 276
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 277
+fMT2tree->TopDecayModeResult(11) 1
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 278
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 279
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 280
+fMT2tree->TopDecayModeResult(11) 1
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 281
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 282
+fMT2tree->TopDecayModeResult(11) 1
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 283
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 1
++++ Proccessing event 284
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 285
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
+ hadronic !!!!!!!!!!
++++ Proccessing event 286
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
+ hadronic !!!!!!!!!!
++++ Proccessing event 287
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 288
+fMT2tree->TopDecayModeResult(11) 1
+fMT2tree->TopDecayModeResult(13) 0
+ leptonic ----------
++++ Proccessing event 289
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 290
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 291
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 292
+fMT2tree->TopDecayModeResult(11) 1
+fMT2tree->TopDecayModeResult(13) 0
+ hadronic !!!!!!!!!!
+ leptonic ----------
++++ Proccessing event 293
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
+ hadronic !!!!!!!!!!
++++ Proccessing event 294
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
+ hadronic !!!!!!!!!!
++++ Proccessing event 295
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 296
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 1
++++ Proccessing event 297
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 298
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 299
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0
++++ Proccessing event 300
+fMT2tree->TopDecayModeResult(11) 0
+fMT2tree->TopDecayModeResult(13) 0

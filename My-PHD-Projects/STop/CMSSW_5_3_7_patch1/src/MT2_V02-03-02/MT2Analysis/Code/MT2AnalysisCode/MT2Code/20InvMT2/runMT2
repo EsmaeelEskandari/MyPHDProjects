@@ -1,0 +1,6 @@
+setenv SCRAM_ARCH slc5_amd64_gcc462
+setenv VO_CMS_SW_DIR /public/V_CMSSW64/
+source $VO_CMS_SW_DIR/cmsset_default.csh
+cd /home/mzeinali/CMSSW_5_3_7_patch1/src
+cmsenv
+cd /home/mzeinali/20InvMT2/MT2_V02-03-02/MT2Analysis/Code/MT2AnalysisCode/MT2Code

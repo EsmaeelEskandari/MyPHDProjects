@@ -1,0 +1,142 @@
+/* 
+ * File:   runEstimation.C
+ * Author: fahim
+ *
+ * Created on Wednesday, 2013-06-05 11:40
+ */
+{
+#include <TMath.h>
+
+    TString outputdir = ".";
+    //    TString samples = "./samplesEstimation.dat";
+    TString samples = "./samplesEstimationMSJMNBT.dat";
+    //    TString samples = "./samplesMineSmearedJetMETNewBTagParkedNewSamples.dat";
+    //    TString samples = "./samplesEstimationMSJMNBTParked.dat";
+    // TString samples = "./samplesMineSmearedJetMETNewBTagParkedNewSamples_No7trig.dat";
+    gSystem->CompileMacro("/../../MT2Code/src/MassPlotter.cc", "k");
+    gROOT->ProcessLine(".x SetStyle_PRD.C");
+    // ===
+
+    std::ostringstream cutStream;
+    cutStream << " "
+            << "(misc.ProcessID!=10 || (Susy.MassGlu >= 350 && Susy.MassGlu < 355" << "&&"
+            << "Susy.MassLSP >= 50 && Susy.MassLSP < 55))" << "&&"
+
+            << "misc.MT2>125"                                                 << "&&"
+            << "misc.MinMetJetDPhi4 >0.3"                                    << "&&"
+
+            << "NBJetsCSVT> 0" << "&&"
+            << "misc.MET>30" << "&&"
+            << "NJetsIDLoose40  >=4" << "&&"
+            << "(NEles==0  || ele[0].lv.Pt()<5)" << "&&"
+            << "(NMuons==0 || muo[0].lv.Pt()<5)" << "&&"
+            << "misc.Jet0Pass ==1" << "&&"
+            << "misc.Jet1Pass ==1" << "&&"
+            << "misc.PassJetID ==1" << "&&"
+            << "misc.Vectorsumpt < 70" << "&&"
+
+
+            //Or between Six and Quad ( 2 0 i n f - N O 7 t h J e t )
+            << "(((NJetsIDLoose40  >=4 && jet[3].lv.Pt() >= 100.0) || (NJetsIDLoose40  >=6 && jet[5].lv.Pt() >= 65.0))" << "||"
+            << "(NJetsIDLoose40  >=5 && jet[4].lv.Pt() >= 85.0))"
+            //            // QuadJet45/50 ( P A R K E D )
+            //            << "((NJetsIDLoose40  >=4 && jet[3].lv.Pt() >= 80.0) || (NJetsIDLoose40  >=5 && jet[4].lv.Pt() >= 65.0))"
+            ;
+
+
+
+    std::ostringstream triggerStream;
+    triggerStream << "( "
+            << " misc.ProcessID != 0 || ((misc.CrazyHCAL==0 && misc.NegativeJEC==0 " << "&&"
+            << " misc.CSCTightHaloIDFlag==0 && misc.HBHENoiseFlag==0 " << "&&"
+            << " misc.hcalLaserEventFlag==0 && misc.trackingFailureFlag==0 " << "&&"
+            << " misc.eeBadScFlag==0 && misc.EcalDeadCellTriggerPrimitiveFlag==0 )" << "&&("
+
+            //Or between Six and Quad ( 2 0 i n f - N O 7 t h J e t )
+            << "(((trigger.HLT_QuadJet80_v1 ==1)" << "||"
+            << "(trigger.HLT_QuadJet80_v2 ==1)" << "||"
+            << "(trigger.HLT_QuadJet80_v3 ==1)" << "||"
+            << "(trigger.HLT_QuadJet80_v4 ==1)" << "||"
+            << "(trigger.HLT_QuadJet80_v6 ==1)" << ") &&"
+            << " ((NJetsIDLoose40  >=4 " << "&&"
+            << " jet[3].lv.Pt() >= 100.0 " << ") || "
+            << " (NJetsIDLoose40  >=5 " << "&&"
+            << " jet[4].lv.Pt() >= 85.0 " << "))) || "
+
+            << "(((trigger.HLT_SixJet45_v1 ==1)" << "||"
+            << "(trigger.HLT_SixJet45_v2 ==1)" << "||"
+            << "(trigger.HLT_SixJet45_v3 ==1)" << "||"
+            << "(trigger.HLT_SixJet45_v4 ==1)" << "||"
+            << "(trigger.HLT_SixJet45_v6 ==1)" << ") &&"
+            << " (NJetsIDLoose40  >=6 " << "&&"
+            << " jet[5].lv.Pt() >= 65.0 " << ")))))"
+
+            //            //Or between Six and Quad ( P A R K E D )
+            //            << "(((trigger.HLT_QuadJet50_v1 ==1)" << "||"
+            //            << "(trigger.HLT_QuadJet50_v2 ==1)" << "||"
+            //            << "(trigger.HLT_QuadJet50_v3 ==1)" << "||"
+            //            << "(trigger.HLT_QuadJet50_v5 ==1)" << ") &&"
+            //            << " ((NJetsIDLoose40  >=4 " << "&&"
+            //            << " jet[3].lv.Pt() >= 80.0 " << ") || "
+            //            << " (NJetsIDLoose40  >=5 " << "&&"
+            //            << " jet[4].lv.Pt() >= 65.0 " << "))))))"
+
+            ;
+
+    TString trigger = triggerStream.str().c_str();
+    TString cuts = cutStream.str().c_str();
+
+
+    // ===
+    //    int gNMT2Bbins = 22;
+    //    double gMT2Bbins[gNMT2Bbins + 1] = {0, 10, 20, 30, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100, 125, 150, 200, 250, 300, 700};
+    //    int gNMT2Bbins = 20;
+    //    double gMT2Bbins[gNMT2Bbins + 1] = {0, 10, 20, 30, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 100, 125, 150, 200, 300, 700};
+
+    //    int gNMT2Bbins = 15;
+    //    double gMT2Bbins[gNMT2Bbins + 1] = {0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 125, 150, 200, 300, 700};
+        int gNMT2Bbins = 17;
+        double gMT2Bbins[gNMT2Bbins + 1] = {0, 10, 20, 30, 40, 50, 60, 65, 70, 75, 80, 90, 100, 125, 150, 200, 300, 700};
+
+    // === BKG ESTIMATIONE ===
+    MassPlotter *tA = new MassPlotter(outputdir, "MassPlots.root");
+    tA->SetSave(false);
+    tA->setVerbose(3);
+    tA->init(samples);
+    tA->SetIsPhoton(false);
+
+
+    // ========== BINNING ==========
+    cuts = cuts + "&&" + trigger;
+
+    // fit range is changed from 50-90 to 60-80 
+
+    //    tA->TEST_QCDEstimation("misc.MinMetJetDPhi4", cuts, "misc.MinMetJetDPhi4>0.3", "misc.MinMetJetDPhi4<0.2", gNMT2Bbins, gMT2Bbins,
+    //            50., 90., 250, "qcdEstimation.root", 1);
+    //    tA->TEST_QCDEstimation("misc.MinMetJetDPhi4", cuts, "misc.MinMetJetDPhi4>0.3", "misc.MinMetJetDPhi4<0.2", gNMT2Bbins, gMT2Bbins,
+    //            50., 90., 250, "qcdEstimation.root", 0);
+
+    tA->TEST_QCDEstimation("misc.MinMetJetDPhi4", cuts, "misc.MinMetJetDPhi4>0.3", "misc.MinMetJetDPhi4<0.2", gNMT2Bbins, gMT2Bbins,
+            60., 80., 200, "qcdEstimation.root", 1);
+
+    //            std::string bincuts = "(NTops == 0) && " + cuts;
+    //            tA->TEST_QCDEstimation("misc.MinMetJetDPhi4", bincuts, "misc.MinMetJetDPhi4>0.3", "misc.MinMetJetDPhi4<0.2", gNMT2Bbins, gMT2Bbins,
+    //                    50., 90., 250., "qcdEstimation_00.root", 0);
+    //        
+    //            bincuts = "(NTops > 0) && " + cuts;
+    //            tA->TEST_QCDEstimation("misc.MinMetJetDPhi4", bincuts, "misc.MinMetJetDPhi4>0.3", "misc.MinMetJetDPhi4<0.2", gNMT2Bbins, gMT2Bbins,
+    //                    50., 90., 250., "qcdEstimation_01.root", 0);
+
+    //tA->ABCD_MT2("misc.MinMetJetDPhi4", cuts, "misc.MinMetJetDPhi4>0.3", "misc.MinMetJetDPhi4<0.2", gNMT2Bbins, gMT2Bbins, 50., 90.);
+
+
+    //     TOBE SYNCED
+    //    tA->TEST_Counting_MT2(cuts);
+    //tA->makePlot("NTops", cuts, -1, -1, -10, trigger, "MT2", 2, 0, 4, false, true, true, true, true, true, 1, 1);
+
+    //delete tA;
+
+}
+
+
+

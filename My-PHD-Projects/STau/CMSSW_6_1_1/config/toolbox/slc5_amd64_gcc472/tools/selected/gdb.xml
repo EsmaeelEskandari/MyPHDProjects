@@ -1,0 +1,6 @@
+<tool name="gdb" version="7.5-cms2">
+  <client>
+    <environment name="GDB_BASE" default="/public/V_CMSSW64/slc5_amd64_gcc472/external/gdb/7.5-cms2"/>
+  </client>
+  <runtime name="PATH" value="$GDB_BASE/bin" type="path"/>
+</tool>

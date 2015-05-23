@@ -1,0 +1,10 @@
+python             := python
+ALL_TOOLS      += python
+python_LOC_INCLUDE := /public/V_CMSSW64/slc5_amd64_gcc472/external/python/2.7.3-cms4/include/python2.7
+python_EX_INCLUDE  := $(python_LOC_INCLUDE)
+python_LOC_LIB := python2.7
+python_EX_LIB  := $(python_LOC_LIB)
+python_LOC_USE := sockets
+python_EX_USE  := $(python_LOC_USE)
+python_INIT_FUNC := $$(eval $$(call ProductCommonVars,python,,,python))
+

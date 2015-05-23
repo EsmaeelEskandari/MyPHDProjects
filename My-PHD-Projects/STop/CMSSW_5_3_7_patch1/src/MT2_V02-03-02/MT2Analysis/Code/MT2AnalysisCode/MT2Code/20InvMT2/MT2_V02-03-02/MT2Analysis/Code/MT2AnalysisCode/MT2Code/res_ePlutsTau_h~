@@ -1,0 +1,32 @@
+/////
+        bool hasHadTau = false;
+        for(int j = 0; j < NGenLepts; j++){
+        if((abs(genlept[j].ID) != 15) || (abs(genlept[j].MID)!=24))
+          continue;
+        int HadTau = 1;
+        int tau_ele = 0;
+        int tau_muo = 0;
+
+        for(int i = 0; i < NGenLepts; i++){
+          if((abs(genlept[i].ID) == 11) && (genlept[i].MID == genlept[j].ID) && (abs(genlept[i].GMID)==24)) tau_ele = 1;
+          if((abs(genlept[i].ID) == 13) && (genlept[i].MID == genlept[j].ID) && (abs(genlept[i].GMID)==24)) tau_muo = 1;
+        }
+        if (tau_ele == 1 || tau_muo == 1) HadTau = 0;
+        if (HadTau == 1) hasHadTau = true;
+        }
+        //if (hasHadTau == true) return false;
+        if (hasHadTau == false) return false; // check for a test to find the probablility in those e+tau_h events. done on 1st of sep.
+/////
+else if(nlepts ==11){
+                if     ( (bit & 4 )==4 ) return false; // muon
+                if     ( (bit & 2 )==2 ) return false; // two electron
+                //if     ( (bit & 16 )==16 && (bit & 64 )==0) return false; // reject hadronic tau decay , added on 13 Aug.
+                if     ( (bit & 1 )==1 ) return true;  // electron
+                else                     return false;
+        }else if(nlepts ==13){
+                if     ( (bit & 1 )==1 ) return false; // ele
+                if     ( (bit & 8 )==8 ) return false; // two muons
+                //if     ( (bit & 16 )==16 && (bit & 64 )==0) return false; // reject hadronic tau decay , added on 13 Aug.
+                if     ( (bit & 4 )==4 ) return true;  // muon
+                else                     return false;
+        }

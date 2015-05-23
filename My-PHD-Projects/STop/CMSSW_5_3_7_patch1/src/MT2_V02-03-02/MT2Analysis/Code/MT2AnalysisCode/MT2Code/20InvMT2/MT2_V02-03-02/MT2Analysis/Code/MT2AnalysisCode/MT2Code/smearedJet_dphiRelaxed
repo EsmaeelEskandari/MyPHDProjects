@@ -1,0 +1,140 @@
++++ Filtering done, size=132
++++ Passing events for ele_data
++++ Filtering done, size=153
++++ Passing events for muo_data
+--->>> Wele.nData: 132.000000
+--->>> Wmuo.nData: 153.000000
+--->>> Wele.TopnW_leptveto: 237.384321
+--->>> Wmuo.TopnW_leptveto: 182.016139
+	-->> Wele.prob() 0.421490 pm 0.047613
+	-->> Wmuo.prob() 0.546633 pm 0.055828
+*********************************************************************
+%BEGINLATEX%
+\begin{table}
+\begin{center}
+\begin{tabular}{lcc}
+\hline\hline
+                               &  $W\to e \nu$ & $ W\to \mu \nu$ \\
+\hline
+ $N_{e,\mu}^{reco}$           &  $132.000000$ & $153.000000$ \\
+\hline
+ $N_{e,\mu}^{MC}(W \& Top)$  &  $ nW res: 148.4756
+ nW_bg res: 18.5922
+129.8835$ & $ nW res: 197.1947
+ nW_bg res: 25.5736
+171.6211$ \\
+\hline
+ $N_{e,\mu}^{bg}(W \&Top \ BG)$ &  $ nW_bg res: 18.5922
+18.5922$ & $ nW_bg res: 25.5736
+25.5736$ \\
+ $N_{e,\mu}^{bg}(Z)$          &  $0.0000$ & $0.0000$ \\
+ $N_{e,\mu}^{bg}(QCD)$        &  $0.0000$ & $0.6601$ \\
+ $N_{e,\mu}^{bg}(Other)$      &  $0.0000$ & $0.0000$ \\
+\hline
+ $\varepsilon      $          &  $0.4215$ & $0.5466$ \\
+\hline
+ $W_{e,\mu}^{pass \ veto}$ &  $ nW_bg res: 18.592
+155.656 \pm 15.769 \ (stat) \ \pm  nW_bg res: 18.592
+ nW_bg res: 18.592
+39.686 \ (sys) \ $ & $ nW_bg res: 25.574
+105.138 \ \pm 10.259 \ (stat) \ \pm  nW_bg res: 25.574
+ nW_bg res: 25.574
+32.161\ (sys) $ \\
+\hline
+ $W_{e,\mu}^{pass \ veto}$ MC & $###### error from sumw2: 10.7080
+ nW_leptveto res: 184.5977
+184.5977$ & $###### error from sumw2: 9.3220
+ nW_leptveto res: 138.1798
+138.1798 $ \\ 
+\hline\hline
+\end{tabular}
+\end{center}
+\end{table}
+%ENDLATEX%
+
+muo; RLL : 0.6651 +- 0.1388
+ele; RLL : 1.0956 +- 0.1845
+*** electrons ***
+ nW_bg res: 18.5922
+ nW_bg res: 18.5922
+ nW_bg res: 18.5922
+124.2503 +- 12.5876 +- 29.2007
+*** muons ***
+ nW_bg res: 25.5736
+ nW_bg res: 25.5736
+ nW_bg res: 25.5736
+84.3182 +- 8.2274 +- 24.7841
+Warning: Automatic variable i is allocated /home/mzeinali/20InvMT2/MT2_V02-03-02/MT2Analysis/Code/MT2AnalysisCode/MT2Code/./../RootMacros/run_LostLeptonSmearedJet.C:305:
+>>>> nw: 148.4756 bg: 18.5922 lepton veto: 184.5977 >>>>
+Warning: Automatic variable i is allocated /home/mzeinali/20InvMT2/MT2_V02-03-02/MT2Analysis/Code/MT2AnalysisCode/MT2Code/./../RootMacros/run_LostLeptonSmearedJet.C:305:
+>>>> nw: 197.1947 bg: 25.5736 lepton veto: 138.1798 >>>>
+Warning in <TROOT::Append>: Replacing existing TH1: eff (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: f (Potential memory leak).
+Warning in <TROOT::Append>: Replacing existing TH1: f (Potential memory leak).
+muo; RLL : 0.6651 +- 0.1388
+ele; RLL : 1.0956 +- 0.1845
+		-> bin 1 -------------------------------------------------------------
+Warning: Automatic variable i is allocated /home/mzeinali/20InvMT2/MT2_V02-03-02/MT2Analysis/Code/MT2AnalysisCode/MT2Code/./../RootMacros/run_LostLeptonSmearedJet.C:305:
+			-> electrons: 0.0000 compared to MC-truth: 0.0000 +- 0.0000
+				       +- 0.0000 (stat) 
+				       +- 0.0000 (sys) 
+			-> muons: 0.0000 compared to MC-truth: 0.0000 +- 0.0000
+				       +- 0.0000 (stat) 
+				       +- 0.0000 (sys) 
+		-> bin 2 -------------------------------------------------------------
+			-> electrons: 0.0000 compared to MC-truth: 0.0000 +- 0.0000
+				       +- 0.0000 (stat) 
+				       +- 0.0000 (sys) 
+			-> muons: 0.0000 compared to MC-truth: 0.0000 +- 0.0000
+				       +- 0.0000 (stat) 
+				       +- 0.0000 (sys) 
+		-> bin 3 -------------------------------------------------------------
+			-> electrons: 0.0000 compared to MC-truth: 0.0000 +- 0.0000
+				       +- 0.0000 (stat) 
+				       +- 0.0000 (sys) 
+			-> muons: 0.0000 compared to MC-truth: 0.0000 +- 0.0000
+				       +- 0.0000 (stat) 
+				       +- 0.0000 (sys) 
+		-> bin 4 -------------------------------------------------------------
+			-> electrons: 0.0000 compared to MC-truth: 0.0000 +- 0.0000
+				       +- 0.0000 (stat) 
+				       +- 0.0000 (sys) 
+			-> muons: 0.0000 compared to MC-truth: 0.0000 +- 0.0000
+				       +- 0.0000 (stat) 
+				       +- 0.0000 (sys) 
+		-> bin 5 -------------------------------------------------------------
+			-> electrons: 0.0000 compared to MC-truth: 0.0000 +- 0.0000
+				       +- 0.0000 (stat) 
+				       +- 0.0000 (sys) 
+			-> muons: 0.0000 compared to MC-truth: 0.0000 +- 0.0000
+				       +- 0.0000 (stat) 
+				       +- 0.0000 (sys) 
+		-> bin 6 -------------------------------------------------------------
+			-> electrons: 53.5614 compared to MC-truth: 85.2403 +- 5.8731
+				       +- 8.0510 (stat) 
+				       +- 10.6171 (sys) 
+			-> muons: 38.6000 compared to MC-truth: 54.3885 +- 4.6687
+				       +- 5.4037 (stat) 
+				       +- 9.6440 (sys) 
+		-> bin 7 -------------------------------------------------------------
+			-> electrons: 40.5397 compared to MC-truth: 60.3074 +- 4.8868
+				       +- 7.1844 (stat) 
+				       +- 9.4754 (sys) 
+			-> muons: 32.9241 compared to MC-truth: 56.6551 +- 4.8298
+				       +- 5.0656 (stat) 
+				       +- 8.8996 (sys) 
+		-> bin 8 -------------------------------------------------------------
+			-> electrons: 22.7911 compared to MC-truth: 32.5483 +- 3.5652
+				       +- 5.5865 (stat) 
+				       +- 6.8672 (sys) 
+			-> muons: 8.1381 compared to MC-truth: 23.3961 +- 3.0944
+				       +- 3.1198 (stat) 
+				       +- 6.7136 (sys) 
+		-> bin 9 -------------------------------------------------------------
+			-> electrons: 5.1668 compared to MC-truth: 6.5016 +- 1.5385
+				       +- 2.8987 (stat) 
+				       +- 2.6493 (sys) 
+			-> muons: 4.6560 compared to MC-truth: 3.7401 +- 1.1395
+				       +- 1.7598 (stat) 
+				       +- 0.9719 (sys) 
+

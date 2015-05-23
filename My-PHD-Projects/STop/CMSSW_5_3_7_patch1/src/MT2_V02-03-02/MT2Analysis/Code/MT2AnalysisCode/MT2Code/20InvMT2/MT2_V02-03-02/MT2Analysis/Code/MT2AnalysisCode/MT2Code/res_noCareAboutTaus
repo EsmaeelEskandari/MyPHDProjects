@@ -1,0 +1,86 @@
+/////
+        bool hasHadTau = false;
+        for(int j = 0; j < NGenLepts; j++){
+        if((abs(genlept[j].ID) != 15) || (abs(genlept[j].MID)!=24))
+          continue;
+        int HadTau = 1;
+        int tau_ele = 0;
+        int tau_muo = 0;
+
+        for(int i = 0; i < NGenLepts; i++){
+          if((abs(genlept[i].ID) == 11) && (genlept[i].MID == genlept[j].ID) && (abs(genlept[i].GMID)==24)) tau_ele = 1;
+          if((abs(genlept[i].ID) == 13) && (genlept[i].MID == genlept[j].ID) && (abs(genlept[i].GMID)==24)) tau_muo = 1;
+        }
+        if (tau_ele == 1 || tau_muo == 1) HadTau = 0;
+        if (HadTau == 1) hasHadTau = true;
+        }
+        //if (hasHadTau == true) return false;
+/////
+else if(nlepts ==11){
+                if     ( (bit & 4 )==4 ) return false; // muon
+                if     ( (bit & 2 )==2 ) return false; // two electron
+                //if     ( (bit & 16 )==16 && (bit & 64 )==0) return false; // reject hadronic tau decay , added on 13 Aug.
+                if     ( (bit & 1 )==1 ) return true;  // electron
+                else                     return false;
+        }else if(nlepts ==13){
+                if     ( (bit & 1 )==1 ) return false; // ele
+                if     ( (bit & 8 )==8 ) return false; // two muons
+                //if     ( (bit & 16 )==16 && (bit & 64 )==0) return false; // reject hadronic tau decay , added on 13 Aug.
+                if     ( (bit & 4 )==4 ) return true;  // muon
+                else                     return false;
+        }
++++ Filtering done, size=116
++++ Passing events for ele_data
++++ Filtering done, size=122
++++ Passing events for muo_data
+--->>> Wele.nData: 116.000000
+--->>> Wmuo.nData: 122.000000
+--->>> Wele.TopnW_leptveto: 227.992465
+--->>> Wmuo.TopnW_leptveto: 176.743574
+	-->> Wele.prob() 0.395378 pm 0.053791
+	-->> Wmuo.prob() 0.509272 pm 0.060410
+*********************************************************************
+%BEGINLATEX%
+\begin{table}
+\begin{center}
+\begin{tabular}{lcc}
+\hline\hline
+                               &  $W\to e \nu$ & $ W\to \mu \nu$ \\
+\hline
+ $N_{e,\mu}^{reco}$           &  $116.000000$ & $122.000000$ \\
+\hline
+ $N_{e,\mu}^{MC}(W \& Top)$  &  $113.8828$ & $149.5070$ \\
+\hline
+ $N_{e,\mu}^{bg}(W \&Top \ BG)$ &  $18.8109$ & $15.8397$ \\
+ $N_{e,\mu}^{bg}(Z)$          &  $0.0000$ & $0.0000$ \\
+ $N_{e,\mu}^{bg}(QCD)$        &  $0.0000$ & $0.6171$ \\
+ $N_{e,\mu}^{bg}(Other)$      &  $0.0000$ & $0.0000$ \\
+\hline
+ $\varepsilon      $          &  $0.3954$ & $0.5093$ \\
+\hline
+ $W_{e,\mu}^{pass \ veto}$ &  $174.152 \pm 0.000 \ (stat) \ \pm 48.612 \ (sys) \ $ & $144.063 \ \pm 0.000 \ (stat) \ \pm 38.264\ (sys) $ \\
+\hline
+ $W_{e,\mu}^{pass \ veto}$ MC & $###### from ttbar: 151.6447
+###### S-CH: from single top: 0.7338 &&&&&&& from single topbar0.0000
+###### T-CH: from single top: 0.0000 &&&&&&& from single topbar0.3147
+###### TW-CH: from single top: 3.2414 &&&&&&& from single topbar3.2690
+###### from W1: 0.0000
+###### from W2: 0.0000
+###### from W2: 0.0000
+###### from W4: 9.4307
+###### error from sumw2: 10.3288
+170.3377$ & $###### from ttbar: 117.5575
+###### S-CH: from single top: 0.0000 &&&&&&& from single topbar0.0000
+###### T-CH: from single top: 0.0000 &&&&&&& from single topbar0.0000
+###### TW-CH: from single top: 4.7424 &&&&&&& from single topbar4.7827
+###### from W1: 0.0000
+###### from W2: 0.0000
+###### from W2: 0.0000
+###### from W4: 6.7183
+###### error from sumw2: 9.1781
+135.1525 $ \\ 
+\hline\hline
+\end{tabular}
+\end{center}
+\end{table}
+%ENDLATEX%

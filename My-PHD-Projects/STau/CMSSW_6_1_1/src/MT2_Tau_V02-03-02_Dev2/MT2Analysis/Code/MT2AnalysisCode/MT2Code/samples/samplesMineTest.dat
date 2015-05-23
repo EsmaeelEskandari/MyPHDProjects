@@ -1,0 +1,53 @@
+#########################################################################################
+GENERAL
+Path         ///dataLOCAL/paktinat/Projects/CMSSW/CMSSW_5_3_7_patch5/src/MT2_Tau_V02-03-02_DevV2/MT2Analysis/Code/MT2AnalysisCode/MT2Code/
+________________________________________________________________________________________
+# list of samples
+#
+## -------- SMS --------
+SAMPLE
+Name            TStau
+SName           SUSY
+ShapeName       Signal
+File            output_0_0.root
+Xsection        0.152 pb
+Kfact           1.
+Lumi            19600.0
+Type            susy
+Color           1
+
+## -------- QCD ----------------
+SAMPLE
+Name		QCD_HT_100To250
+SName		QCD
+ShapeName	QCD
+File            output_0_0.root
+Xsection  	1.036E7 pb 
+Kfact           1.59
+Lumi            19600.0
+Type		mc
+Color		401
+
+#
+# -------- electroweak --------
+SAMPLE
+Name		WJetsToLNu
+SName		Wtolnu
+ShapeName	WJets
+File            output_0_0.root
+Xsection  	36257.2
+Kfact           1.
+Lumi            19600.0
+Type            mc
+Color		417
+## --------- Data ---------------------------
+SAMPLE
+Name		Run2012A_TauPlusX
+SName		TauPlusX-Data
+ShapeName	Data
+File            output_0_0.root
+Xsection  	1.
+Kfact           1.	
+Lumi            1.
+Type            data
+Color		1
