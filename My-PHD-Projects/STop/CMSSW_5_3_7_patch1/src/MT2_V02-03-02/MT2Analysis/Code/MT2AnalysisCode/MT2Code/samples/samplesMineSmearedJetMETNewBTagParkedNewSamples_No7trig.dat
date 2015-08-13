@@ -1,6 +1,6 @@
 ############################################################################################
 GENERAL
-Path             ///dataLOCAL/MT2Top/RootFiles/
+Path             ///dataLOCAL/dataLOCAL/
 #__________________________________________________________________________________________
 # list of samples
 #
@@ -11,7 +11,7 @@ SAMPLE
 Name		QCD-HT-100To250
 SName		QCD
 ShapeName	QCD
-File            NewTreesSmearedJetMETNewBTag/QCD-HT-100To250-TuneZ2star-8TeV-madgraph-pythia-Summer12-DR53X-PU-S10-START53-V7A-v1.root
+File            MT2Top/RootFiles/NewTreesSmearedJetMETNewBTag/QCD-HT-100To250-TuneZ2star-8TeV-madgraph-pythia-Summer12-DR53X-PU-S10-START53-V7A-v1.root
 Xsection  	10360000 
 Kfact           1.59	
 Lumi            18341
@@ -24,7 +24,7 @@ SAMPLE
 Name		QCD-HT-250To500
 SName		QCD
 ShapeName	QCD
-File            NewTreesSmearedJetMETNewBTag/QCD-HT-250To500-TuneZ2star-8TeV-madgraph-pythia6-Summer12-DR53X-PU-S10-START53-V7A-v1-2.root
+File            MT2Top/RootFiles/NewTreesSmearedJetMETNewBTag/QCD-HT-250To500-TuneZ2star-8TeV-madgraph-pythia6-Summer12-DR53X-PU-S10-START53-V7A-v1-2.root
 Xsection  	276000
 Kfact           1.59	
 Lumi            18341
@@ -37,7 +37,7 @@ SAMPLE
 Name		QCD-HT-500To1000
 SName		QCD
 ShapeName	QCD
-File            NewTreesSmearedJetMETNewBTag/QCD-HT-500To1000-TuneZ2star-8TeV-madgraph-pythia6-Summer12-DR53X-PU-S10-START53-V7A-v1-2.root
+File            MT2Top/RootFiles/NewTreesSmearedJetMETNewBTag/QCD-HT-500To1000-TuneZ2star-8TeV-madgraph-pythia6-Summer12-DR53X-PU-S10-START53-V7A-v1-2.root
 Xsection  	8426
 Kfact           1.59
 Lumi            18341
@@ -48,7 +48,7 @@ SAMPLE
 Name		QCD-HT-1000ToInf
 SName		QCD
 ShapeName	QCD
-File            NewTreesSmearedJetMETNewBTag/QCD-HT-1000ToInf-TuneZ2star-8TeV-madgraph-pythia6-Summer12-DR53X-PU-S10-START53-V7A-v1-2.root
+File            MT2Top/RootFiles/NewTreesSmearedJetMETNewBTag/QCD-HT-1000ToInf-TuneZ2star-8TeV-madgraph-pythia6-Summer12-DR53X-PU-S10-START53-V7A-v1-2.root
 Xsection  	204
 Kfact           1.59	
 Lumi            18341 
@@ -62,7 +62,7 @@ SAMPLE
 Name		WJetsToLNu_HT_200To250
 SName		Wtolnu
 ShapeName	WJets
-File            NewTreesSmearedJetMETNewBTag/WJetsToLNu-HT-200To250-8TeV-madgraph-Summer12-DR53X-PU-S10-START53-V7C-v1-2_smallb.root
+File            MT2Top/RootFiles/NewTreesSmearedJetMETNewBTag/WJetsToLNu-HT-200To250-8TeV-madgraph-Summer12-DR53X-PU-S10-START53-V7C-v1-2_smallb.root
 Xsection  	90.27
 Kfact           1.0
 Lumi            18341
@@ -75,7 +75,7 @@ SAMPLE
 Name		WJetsToLNu_HT_250To300
 SName		Wtolnu
 ShapeName	WJets
-File            NewTreesSmearedJetMETNewBTag/WJetsToLNu-HT-250To300-8TeV-madgraph-v2-Summer12-DR53X-PU-S10-START53-V7A-v1_smallb.root
+File            MT2Top/RootFiles/NewTreesSmearedJetMETNewBTag/WJetsToLNu-HT-250To300-8TeV-madgraph-v2-Summer12-DR53X-PU-S10-START53-V7A-v1_smallb.root
 Xsection  	48.01
 Kfact           1.0
 Lumi            18341
@@ -87,7 +87,7 @@ SAMPLE
 Name		WJetsToLNu_HT_300To400
 SName		Wtolnu
 ShapeName	WJets
-File            NewTreesSmearedJetMETNewBTag/WJetsToLNu-HT-300To400-8TeV-madgraph-v2-Summer12-DR53X-PU-S10-START53-V7A-v1_smallb.root
+File            MT2Top/RootFiles/NewTreesSmearedJetMETNewBTag/WJetsToLNu-HT-300To400-8TeV-madgraph-v2-Summer12-DR53X-PU-S10-START53-V7A-v1_smallb.root
 Xsection  	38.3
 Kfact           1.0
 Lumi            18341
@@ -99,7 +99,7 @@ SAMPLE
 Name		WJetsToLNu_HT_400
 SName		Wtolnu
 ShapeName	WJets
-File            NewTreesSmearedJetMETNewBTag/WJetsToLNu-HT-400ToInf-8TeV-madgraph-Summer12-DR53X-PU-S10-START53-V7A-v1_smallb.root
+File            MT2Top/RootFiles/NewTreesSmearedJetMETNewBTag/WJetsToLNu-HT-400ToInf-8TeV-madgraph-Summer12-DR53X-PU-S10-START53-V7A-v1_smallb.root
 Xsection  	25.22
 Kfact           1.0
 Lumi            18341
@@ -110,7 +110,7 @@ SAMPLE
 Name		DYToLL_M10To50
 SName		DY
 ShapeName	ZJetsToLL
-File            NewTreesSmearedJetMETNewBTag/DYJetsToLL-M-10To50filter-8TeV-madgraph-Summer12-DR53X-PU-S10-START53-V7A-v1_smallb.root
+File            MT2Top/RootFiles/NewTreesSmearedJetMETNewBTag/DYJetsToLL-M-10To50filter-8TeV-madgraph-Summer12-DR53X-PU-S10-START53-V7A-v1_smallb.root
 Xsection  	876.8
 Kfact           1.0
 Lumi            18341
@@ -121,7 +121,7 @@ SAMPLE
 Name		DYToLL_M50
 SName		DY
 ShapeName	ZJetsToLL
-File            NewTreesSmearedJetMETNewBTag/DYJetsToLL-M-50-TuneZ2Star-8TeV-madgraph-tarball-Summer12-DR53X-PU-S10-START53-V7A-v1_smallb.root
+File            MT2Top/RootFiles/NewTreesSmearedJetMETNewBTag/DYJetsToLL-M-50-TuneZ2Star-8TeV-madgraph-tarball-Summer12-DR53X-PU-S10-START53-V7A-v1_smallb.root
 Xsection  	3503.71
 Kfact           1.0
 Lumi            18341
@@ -133,7 +133,7 @@ SAMPLE
 Name		DYToNuNu_HT_50To100
 SName		DY
 ShapeName	ZJetsToNuNu
-File            NewTreesSmearedJetMETNewBTag/ZJetsToNuNu-50-HT-100-TuneZ2Star-8TeV-madgraph-ext-Summer12-DR53X-PU-S10-START53-V7A-v1_smallb.root
+File            MT2Top/RootFiles/NewTreesSmearedJetMETNewBTag/ZJetsToNuNu-50-HT-100-TuneZ2Star-8TeV-madgraph-ext-Summer12-DR53X-PU-S10-START53-V7A-v1_smallb.root
 Xsection  	381.2
 Kfact           1.0
 Lumi            18341
@@ -146,7 +146,7 @@ SAMPLE
 Name		DYToNuNu_HT_100To200
 SName		DY
 ShapeName	ZJetsToNuNu
-File            NewTreesSmearedJetMETNewBTag/ZJetsToNuNu-100-HT-200-TuneZ2Star-8TeV-madgraph-ext-Summer12-DR53X-PU-S10-START53-V7C-v1_smallb.root
+File            MT2Top/RootFiles/NewTreesSmearedJetMETNewBTag/ZJetsToNuNu-100-HT-200-TuneZ2Star-8TeV-madgraph-ext-Summer12-DR53X-PU-S10-START53-V7C-v1_smallb.root
 Xsection  	160.3
 Kfact           1.0
 Lumi            18341
@@ -158,7 +158,7 @@ SAMPLE
 Name		DYToNuNu_HT_200To400
 SName		DY
 ShapeName	ZJetsToNuNu
-File            NewTreesSmearedJetMETNewBTag/ZJetsToNuNu-200-HT-400-TuneZ2Star-8TeV-madgraph-ext-Summer12-DR53X-PU-S10-START53-V7A-v1_smallb.root
+File            MT2Top/RootFiles/NewTreesSmearedJetMETNewBTag/ZJetsToNuNu-200-HT-400-TuneZ2Star-8TeV-madgraph-ext-Summer12-DR53X-PU-S10-START53-V7A-v1_smallb.root
 Xsection  	41.49
 Kfact           1.0
 Lumi            18341
@@ -169,7 +169,7 @@ SAMPLE
 Name		DYToNuNu_HT_400
 SName		DY
 ShapeName	ZJetsToNuNu
-File            NewTreesSmearedJetMETNewBTag/ZJetsToNuNu-400-HT-inf-TuneZ2Star-8TeV-madgraph-ext-Summer12-DR53X-PU-S10-START53-V7A-v1_smallb.root
+File            MT2Top/RootFiles/NewTreesSmearedJetMETNewBTag/ZJetsToNuNu-400-HT-inf-TuneZ2Star-8TeV-madgraph-ext-Summer12-DR53X-PU-S10-START53-V7A-v1_smallb.root
 Xsection  	5.274
 Kfact           1.0
 Lumi            18341
@@ -181,7 +181,7 @@ SAMPLE
 Name		TTbar
 SName		Top
 ShapeName	Top
-File            NewTreesSmearedJetMETNewBTag/TTGJets-8TeV-madgraph-Summer12-DR53X-PU-S10-START53-V19-v1.root
+File            MT2Top/RootFiles/NewTreesSmearedJetMETNewBTag/TTGJets-8TeV-madgraph-Summer12-DR53X-PU-S10-START53-V19-v1.root
 Xsection  	2.166
 Kfact           1.0	
 Lumi            18341
@@ -192,7 +192,7 @@ SAMPLE
 Name		TTbar
 SName		Top
 ShapeName	Top
-File            NewTreesSmearedJetMETNewBTag/TTH-Inclusive-M-125-8TeV-pythia6-Summer12-DR53X-PU-S10-START53-V7A-v1.root
+File            MT2Top/RootFiles/NewTreesSmearedJetMETNewBTag/TTH-Inclusive-M-125-8TeV-pythia6-Summer12-DR53X-PU-S10-START53-V7A-v1.root
 Xsection  	0.130
 Kfact           1.0	
 Lumi            18341
@@ -203,7 +203,7 @@ SAMPLE
 Name		TTbar
 SName		Top
 ShapeName	Top
-File            NewTreesSmearedJetMETNewBTag/TTWJets-8TeV-madgraph-Summer12-DR53X-PU-S10-START53-V7A-v1.root
+File            MT2Top/RootFiles/NewTreesSmearedJetMETNewBTag/TTWJets-8TeV-madgraph-Summer12-DR53X-PU-S10-START53-V7A-v1.root
 Xsection  	0.232 
 Kfact           1.0	
 Lumi            18341
@@ -214,7 +214,7 @@ SAMPLE
 Name		TTbar
 SName		Top
 ShapeName	Top
-File            NewTreesSmearedJetMETNewBTag/TTWWJets-8TeV-madgraph-Summer12-DR53X-PU-S10-START53-V7A-v1.root
+File            MT2Top/RootFiles/NewTreesSmearedJetMETNewBTag/TTWWJets-8TeV-madgraph-Summer12-DR53X-PU-S10-START53-V7A-v1.root
 Xsection  	0.002037
 Kfact           1.0	
 Lumi            18341
@@ -225,7 +225,7 @@ SAMPLE
 Name		TTbar
 SName		Top
 ShapeName	Top
-File            NewTreesSmearedJetMETNewBTag/TTZJets-8TeV-madgraph-v2-Summer12-DR53X-PU-S10-START53-V7A-v1.root
+File            MT2Top/RootFiles/NewTreesSmearedJetMETNewBTag/TTZJets-8TeV-madgraph-v2-Summer12-DR53X-PU-S10-START53-V7A-v1.root
 Xsection  	0.2057 
 Kfact           1.0	
 Lumi            18341
@@ -236,7 +236,7 @@ SAMPLE
 Name		TTbar
 SName		Top
 ShapeName	Top
-File            NewTreesSmearedJetMETNewBTag/TTJets-MassiveBinDECAY-TuneZ2star-8TeV-madgraph-tauola-Summer12-DR53X-PU-S10-START53-V7A-v1_smallb.root
+File            MT2Top/RootFiles/NewTreesSmearedJetMETNewBTag/TTJets-MassiveBinDECAY-TuneZ2star-8TeV-madgraph-tauola-Summer12-DR53X-PU-S10-START53-V7A-v1_smallb.root
 Xsection  	234
 Kfact           1.0	
 Lumi            18341
@@ -248,7 +248,7 @@ SAMPLE
 Name		SingleTop_s
 SName		Top
 ShapeName	Top
-File            NewTreesSmearedJetMETNewBTag/T-s-channel-TuneZ2star-8TeV-powheg-tauola-Summer12-DR53X-PU-S10-START53-V7A-v1_smallb.root   
+File            MT2Top/RootFiles/NewTreesSmearedJetMETNewBTag/T-s-channel-TuneZ2star-8TeV-powheg-tauola-Summer12-DR53X-PU-S10-START53-V7A-v1_smallb.root   
 Xsection  	2.82
 Kfact           1.0	
 Lumi            18341
@@ -260,7 +260,7 @@ SAMPLE
 Name		SingleTopbar_s
 SName		Top
 ShapeName	Top
-File            NewTreesSmearedJetMETNewBTag/Tbar-s-channel-TuneZ2star-8TeV-powheg-tauola-Summer12-DR53X-PU-S10-START53-V7A-v1_smallb.root
+File            MT2Top/RootFiles/NewTreesSmearedJetMETNewBTag/Tbar-s-channel-TuneZ2star-8TeV-powheg-tauola-Summer12-DR53X-PU-S10-START53-V7A-v1_smallb.root
 Xsection  	1.57
 Kfact           1.0	
 Lumi            18341
@@ -272,7 +272,7 @@ SAMPLE
 Name		SingleTop_t
 SName		Top
 ShapeName	Top
-File            NewTreesSmearedJetMETNewBTag/T-t-channel-TuneZ2star-8TeV-powheg-tauola-Summer12-DR53X-PU-S10-START53-V7A-v3_smallb.root  
+File            MT2Top/RootFiles/NewTreesSmearedJetMETNewBTag/T-t-channel-TuneZ2star-8TeV-powheg-tauola-Summer12-DR53X-PU-S10-START53-V7A-v3_smallb.root  
 Xsection  	47.0
 Kfact           1.0	
 Lumi            18341
@@ -284,7 +284,7 @@ SAMPLE
 Name		SingleTopbar_t
 SName		Top
 ShapeName	Top
-File            NewTreesSmearedJetMETNewBTag/Tbar-t-channel-TuneZ2star-8TeV-powheg-tauola-Summer12-DR53X-PU-S10-START53-V7A-v1_smallb.root
+File            MT2Top/RootFiles/NewTreesSmearedJetMETNewBTag/Tbar-t-channel-TuneZ2star-8TeV-powheg-tauola-Summer12-DR53X-PU-S10-START53-V7A-v1_smallb.root
 Xsection  	25.0
 Kfact           1.0	
 Lumi            18341
@@ -296,7 +296,7 @@ SAMPLE
 Name		SingleTop_tW
 SName		Top
 ShapeName	Top
-File            NewTreesSmearedJetMETNewBTag/T-tW-channel-DR-TuneZ2star-8TeV-powheg-tauola-Summer12-DR53X-PU-S10-START53-V7A-v1_smallb.root 
+File            MT2Top/RootFiles/NewTreesSmearedJetMETNewBTag/T-tW-channel-DR-TuneZ2star-8TeV-powheg-tauola-Summer12-DR53X-PU-S10-START53-V7A-v1_smallb.root 
 Xsection  	10.7
 Kfact           1.0	
 Lumi            18341
@@ -308,7 +308,7 @@ SAMPLE
 Name		SingleTopbar_tW
 SName		Top
 ShapeName	Top
-File            NewTreesSmearedJetMETNewBTag/Tbar-tW-channel-DR-TuneZ2star-8TeV-powheg-tauola-Summer12-DR53X-PU-S10-START53-V7A-v1_smallb.root
+File            MT2Top/RootFiles/NewTreesSmearedJetMETNewBTag/Tbar-tW-channel-DR-TuneZ2star-8TeV-powheg-tauola-Summer12-DR53X-PU-S10-START53-V7A-v1_smallb.root
 Xsection  	10.7
 Kfact           1.0	
 Lumi            18341
@@ -321,7 +321,7 @@ SAMPLE
 Name            SMS150to350
 SName           SUSY
 ShapeName       Signal
-File            NewTreesSmearedJetMETNewBTag/SMS-T2tt-mStop-150to350-mLSP-0to250-8TeV-Pythia6Z-Summer12-START52-V9-FSIM-v1-2_smallb.root
+File            MT2Top/RootFiles/NewTreesSmearedJetMETNewBTag/SMS-T2tt-mStop-150to350-mLSP-0to250-8TeV-Pythia6Z-Summer12-START52-V9-FSIM-v1-2_smallb.root
 Xsection        0.807
 Kfact           1.0
 Lumi            18341
@@ -332,6 +332,53 @@ Color           1
 ## --------- Data ---------------------------
 
 SAMPLE
+Name		Run2012A_22Jan2013
+SName		Jet-Data
+ShapeName	Data
+File            MT2Tau/RootFiles/TauTau_V3_1/Jet-Run2012A-22Jan2013-v1-AOD.root
+Xsection  	1.
+Kfact           1.	
+Lumi            1.
+Type            data
+Color		1
+
+SAMPLE
+Name		Run2012B_22Jan2013
+SName		Jet-Data
+ShapeName	Data
+File            MT2Tau/RootFiles/TauTau_V3_1/JetHT-Run2012B-22Jan2013-v1-AOD.root
+Xsection  	1.
+Kfact           1.	
+Lumi            1.
+Type            data
+Color		1
+
+SAMPLE
+Name		Run2012C_22Jan2013
+SName		Jet-Data
+ShapeName	Data
+File            MT2Tau/RootFiles/TauTau_V3_1/JetHT-Run2012C-22Jan2013-v1-AOD.root
+Xsection  	1.
+Kfact           1.	
+Lumi            1.
+Type            data
+Color		1
+
+SAMPLE
+Name		Run2012D_22Jan2013
+SName		Jet-Data
+ShapeName	Data
+File            MT2Tau/RootFiles/TauTau_V3_1/JetHT-Run2012D-22Jan2013-v1-AOD.root
+Xsection  	1.
+Kfact           1.	
+Lumi            1.
+Type            data
+Color		1
+
+
+
+
+#SAMPLE
 Name		Run2012A_13Jul
 SName		MJ-Data
 ShapeName	Data
@@ -343,7 +390,7 @@ Type            data
 Color		1
 
 
-SAMPLE
+#SAMPLE
 Name		Run2012A_06Aug
 SName		MJ-Data
 ShapeName	Data
@@ -355,7 +402,7 @@ Type            data
 Color		1
 
 
-SAMPLE
+#SAMPLE
 Name		Run2012B
 SName		MJ-Data
 ShapeName	Data
@@ -367,7 +414,7 @@ Type            data
 Color		1
 
 
-SAMPLE
+#SAMPLE
 Name		Run2012C_24Aug2012
 SName		MJ-Data
 ShapeName	Data
@@ -378,7 +425,7 @@ Lumi            1.
 Type            data
 Color		1
 
-SAMPLE
+#SAMPLE
 Name		Run2012C_PromptReco
 SName		MJ-Data
 ShapeName	Data
@@ -389,7 +436,7 @@ Lumi            1.
 Type            data
 Color		1
 
-SAMPLE
+#SAMPLE
 Name		Run2012D
 SName		MJ-Data
 ShapeName	Data
@@ -401,7 +448,7 @@ Type            data
 Color		1
 
 
-#SAMPLE
+##SAMPLE
 Name		Run2012B
 SName		MJ-Data
 ShapeName	Data
@@ -413,7 +460,7 @@ Type            data
 Color		1
 
 
-#SAMPLE
+##SAMPLE
 Name		Run2012C-p1
 SName		MJ-Data
 ShapeName	Data
@@ -425,7 +472,7 @@ Type            data
 Color		1
 
 
-#SAMPLE
+##SAMPLE
 Name		Run2012C-p2f
 SName		MJ-Data
 ShapeName	Data
@@ -436,7 +483,7 @@ Lumi            1.0
 Type            data
 Color		1
 
-#SAMPLE
+##SAMPLE
 Name		Run2012C-p2s
 SName		MJ-Data
 ShapeName	Data
@@ -447,7 +494,7 @@ Lumi            1.0
 Type            data
 Color		1
 
-#SAMPLE
+##SAMPLE
 Name		Run2012D-p1f
 SName		MJ-Data
 ShapeName	Data
@@ -459,7 +506,7 @@ Type            data
 Color		1
 
 
-#SAMPLE
+##SAMPLE
 Name		Run2012D-p1s
 SName		MJ-Data
 ShapeName	Data
@@ -471,7 +518,7 @@ Type            data
 Color		1
 
 
-#SAMPLE
+##SAMPLE
 Name		Run2012D-p2
 SName		MJ-Data
 ShapeName	Data
@@ -484,7 +531,7 @@ Color		1
 
 ####################################### Data-RemainingRereco#################################
 
-#SAMPLE
+##SAMPLE
 Name		Run2012B-RemainingRereco
 SName		MJ-Data
 ShapeName	Data
@@ -495,7 +542,7 @@ Lumi            1.0
 Type            data
 Color		1
 
-#SAMPLE
+##SAMPLE
 Name		Run2012C-RemainingRereco
 SName		MJ-Data
 ShapeName	Data
@@ -506,7 +553,7 @@ Lumi            1.0
 Type            data
 Color		1
 
-#SAMPLE
+##SAMPLE
 Name		Run2012D-RemainingRereco
 SName		MJ-Data
 ShapeName	Data
@@ -517,7 +564,7 @@ Lumi            1.0
 Type            data
 Color		1
 
-#SAMPLE
+##SAMPLE
 Name		Run2012D-RemainingRereco
 SName		MJ-Data
 ShapeName	Data
@@ -528,7 +575,7 @@ Lumi            1.0
 Type            data
 Color		1
 
-#SAMPLE
+##SAMPLE
 Name		Run2012D-PixelRecover
 SName		MJ-Data
 ShapeName	Data

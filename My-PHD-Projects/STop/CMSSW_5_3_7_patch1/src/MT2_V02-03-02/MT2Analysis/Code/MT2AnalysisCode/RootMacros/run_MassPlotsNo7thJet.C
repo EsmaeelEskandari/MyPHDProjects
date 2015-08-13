@@ -95,12 +95,12 @@
   //NBJetsCSVT == M ==> nbjets == M
   //saeid
 
-  //tA->makePlot("misc.MT2",             cuts,    -1,  -1 , -10 ,   trigger , "MT2"     , 35, 0, 350,        false,         true ,  true,   true,  true,  true, 1, 1);
+  tA->makePlot("misc.MT2",             cuts,    -1,  -1 , -10 ,   trigger , "MT2"     , 35, 0, 350,        false,         true ,  true,   true,  true,  true, 1, 1);
   //tA->TriggerEfficiency(6, 4, 0, 100000000000);
   //tA->SortHighMT2(100.0, 100000000);
 
   //tA->TopStudy("TTbar",3000);
-   tA->TauContamination(-1, 1000000000, 27, cuts, trigger, 0);
+  //   tA->TauContamination(-1, 1000000000, 27, cuts, trigger, 0);
  
    //tA->TauContamination(-1, 1000000000, 27);
   //tA->vs();

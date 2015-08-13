@@ -1,5 +1,5 @@
 This is BibTeX, Version 0.99c (Web2C 7.5.4)
-The top-level auxiliary file: /home/eskandari/STop/CMSSW_5_3_7_patch1/src/Notes/notes/tmp/AN-13-357_temp.aux
+The top-level auxiliary file: /home/eskandari/MyPHDProjects/My-PHD-Projects/STop/CMSSW_5_3_7_patch1/src/Notes/notes/tmp/AN-13-357_temp.aux
 The style file: auto_generated.bst
 Database file #1: auto_generated.bib
 I was expecting a `,' or a `}'---line 519 of file auto_generated.bib
@@ -22,7 +22,7 @@ Warning--empty author in higgspag:software
 Warning--empty year in higgspag:software
 You've used 28 entries,
             2529 wiz_defined-function locations,
-            786 strings with 9418 characters,
+            786 strings with 9478 characters,
 and the built_in function-call counts, 5896 in all, are:
 = -- 603
 > -- 134

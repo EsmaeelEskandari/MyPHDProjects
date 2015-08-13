@@ -1,14 +1,17 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.3.11)  23 MAY 2015 19:03
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.3.11)  23 MAY 2015 19:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**/home/eskandari/STop/CMSSW_5_3_7_patch1/src/Notes/notes/tmp/AN-13-357_temp.te
-x
+**/home/eskandari/MyPHDProjects/My-PHD-Projects/STop/CMSSW_5_3_7_patch1/src/Not
+es/notes/tmp/AN-13-357_temp.tex
 
-(/home/eskandari/STop/CMSSW_5_3_7_patch1/src/Notes/notes/tmp/AN-13-357_temp.tex
+(/home/eskandari/MyPHDProjects/My-PHD-Projects/STop/CMSSW_5_3_7_patch1/src/Note
+s/notes/tmp/AN-13-357_temp.tex
 LaTeX2e <2011/06/27>
 Babel <3.9f> and hyphenation patterns for 78 languages loaded.
-(/home/eskandari/STop/CMSSW_5_3_7_patch1/src/Notes/notes/general/cms-tdr.cls
+
+(/home/eskandari/MyPHDProjects/My-PHD-Projects/STop/CMSSW_5_3_7_patch1/src/Note
+s/notes/general/cms-tdr.cls
 =======================================================
  
  CMS TDR/NOTE style. Version 194681
@@ -124,8 +127,8 @@ Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
 \extratabsurround=\skip49
 \backup@length=\skip50
 )
-(/home/eskandari/STop/CMSSW_5_3_7_patch1/src/Notes/notes/AN-13-357/trunk/lineno
-.sty
+(/home/eskandari/MyPHDProjects/My-PHD-Projects/STop/CMSSW_5_3_7_patch1/src/Note
+s/notes/AN-13-357/trunk/lineno.sty
 Package: lineno 2005/11/02 line numbers on paragraphs v4.41
 \linenopenalty=\count101
 \output=\toks20
@@ -288,16 +291,17 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-(/home/eskandari/STop/CMSSW_5_3_7_patch1/src/Notes/notes/general/pennames-pazo.
-sty) (/home/eskandari/STop/CMSSW_5_3_7_patch1/src/Notes/notes/general/topcapt.s
-ty
+(/home/eskandari/MyPHDProjects/My-PHD-Projects/STop/CMSSW_5_3_7_patch1/src/Note
+s/notes/general/pennames-pazo.sty)
+(/home/eskandari/MyPHDProjects/My-PHD-Projects/STop/CMSSW_5_3_7_patch1/src/Note
+s/notes/general/topcapt.sty
 Package: topcapt 2004/12/11 v1.2 Caption at top of float
 ) (/dataLOCAL/texlive/2013/texmf-dist/tex/generic/oberdiek/ifpdf.sty
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
-(/home/eskandari/STop/CMSSW_5_3_7_patch1/src/Notes/notes/general/pdfdraftcopy.s
-ty
+(/home/eskandari/MyPHDProjects/My-PHD-Projects/STop/CMSSW_5_3_7_patch1/src/Note
+s/notes/general/pdfdraftcopy.sty
 Package: pdfdraftcopy 2003/08/11 1.2 Draft copy in PDF (CVR)
 (/dataLOCAL/texlive/2013/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
@@ -313,7 +317,8 @@ Package graphics Info: Driver file: pdftex.def on input line 91.
 \Gin@req@height=\dimen138
 \Gin@req@width=\dimen139
 )
-(/home/eskandari/STop/CMSSW_5_3_7_patch1/src/Notes/notes/general/changepage.sty
+(/home/eskandari/MyPHDProjects/My-PHD-Projects/STop/CMSSW_5_3_7_patch1/src/Note
+s/notes/general/changepage.sty
 Package: changepage 2009/10/20 v1.0c check page and change page layout
 \c@cp@cntr=\count130
 \cp@tempcnt=\count131
@@ -325,8 +330,9 @@ Package: changepage 2009/10/20 v1.0c check page and change page layout
 \topmargin=\dimen144
 \bottommargin=\dimen145
 )
-(/home/eskandari/STop/CMSSW_5_3_7_patch1/src/Notes/notes/general/ptdr-definitio
-ns.sty) (/dataLOCAL/texlive/2013/texmf-dist/tex/latex/psnfss/palatino.sty
+(/home/eskandari/MyPHDProjects/My-PHD-Projects/STop/CMSSW_5_3_7_patch1/src/Note
+s/notes/general/ptdr-definitions.sty) (/dataLOCAL/texlive/2013/texmf-dist/tex/l
+atex/psnfss/palatino.sty
 Package: palatino 2005/04/12 PSNFSS-v9.2a (SPQR) 
 ) (/dataLOCAL/texlive/2013/texmf-dist/tex/latex/psnfss/mathpazo.sty
 Package: mathpazo 2005/04/12 PSNFSS-v9.2a Palatino w/ Pazo Math (D.Puga, WaS) 
@@ -471,8 +477,8 @@ Defining CMS Note commands
 \c@address=\count145
 \CMSabstractbox=\box62
 )
-(/home/eskandari/STop/CMSSW_5_3_7_patch1/src/Notes/notes/tmp/AN-13-357_temp.aux
-)
+(/home/eskandari/MyPHDProjects/My-PHD-Projects/STop/CMSSW_5_3_7_patch1/src/Note
+s/notes/tmp/AN-13-357_temp.aux)
 \openout1 = `AN-13-357_temp.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
@@ -550,19 +556,19 @@ LaTeX Info: Redefining \pageref on input line 16.
 LaTeX Info: Redefining \nameref on input line 16.
 <567INP AN-13-357_temp.out>
 
-(/home/eskandari/STop/CMSSW_5_3_7_patch1/src/Notes/notes/tmp/AN-13-357_temp.out
-)
+(/home/eskandari/MyPHDProjects/My-PHD-Projects/STop/CMSSW_5_3_7_patch1/src/Note
+s/notes/tmp/AN-13-357_temp.out)
 <567INP AN-13-357_temp.out>
 
-(/home/eskandari/STop/CMSSW_5_3_7_patch1/src/Notes/notes/tmp/AN-13-357_temp.out
-)
+(/home/eskandari/MyPHDProjects/My-PHD-Projects/STop/CMSSW_5_3_7_patch1/src/Note
+s/notes/tmp/AN-13-357_temp.out)
 \@outlinefile=\write4
 \openout4 = `AN-13-357_temp.out'.
 
 <567INP commands.tex>
 
-(/home/eskandari/STop/CMSSW_5_3_7_patch1/src/Notes/notes/AN-13-357/trunk/comman
-ds.tex)
+(/home/eskandari/MyPHDProjects/My-PHD-Projects/STop/CMSSW_5_3_7_patch1/src/Note
+s/notes/AN-13-357/trunk/commands.tex)
 \cmsFigWidth=\skip77
 LaTeX Font Info:    Try loading font information for OML+zplm on input line 93.
 
@@ -637,8 +643,9 @@ Package pdftex.def Info: BigDraft.pdf used on input line 107.
 [1
 
 {/dataLOCAL/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map} </home/e
-skandari/STop/CMSSW_5_3_7_patch1/src/Notes/notes/general/BigDraft.pdf> </home/e
-skandari/STop/CMSSW_5_3_7_patch1/src/Notes/notes/general/cms_draft_an.pdf>]
+skandari/MyPHDProjects/My-PHD-Projects/STop/CMSSW_5_3_7_patch1/src/Notes/notes/
+general/BigDraft.pdf> </home/eskandari/MyPHDProjects/My-PHD-Projects/STop/CMSSW
+_5_3_7_patch1/src/Notes/notes/general/cms_draft_an.pdf>]
 <789FIG BigDraft 0>
 File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
@@ -649,8 +656,8 @@ Package pdftex.def Info: BigDraft.pdf used on input line 107.
 ]
 <567INP IntroductionMT2>
 
-(/home/eskandari/STop/CMSSW_5_3_7_patch1/src/Notes/notes/AN-13-357/trunk/Introd
-uctionMT2.tex
+(/home/eskandari/MyPHDProjects/My-PHD-Projects/STop/CMSSW_5_3_7_patch1/src/Note
+s/notes/AN-13-357/trunk/IntroductionMT2.tex
 LaTeX Font Info:    Try loading font information for OT1+phv on input line 1.
 LaTeX Font Info:    <567INP ot1phv.fd> on input line 1.
 (/dataLOCAL/texlive/2013/texmf-dist/tex/latex/psnfss/ot1phv.fd
@@ -661,8 +668,8 @@ LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <14.4> not available
 )
 <567INP MT2Definition>
 
-(/home/eskandari/STop/CMSSW_5_3_7_patch1/src/Notes/notes/AN-13-357/trunk/MT2Def
-inition.tex
+(/home/eskandari/MyPHDProjects/My-PHD-Projects/STop/CMSSW_5_3_7_patch1/src/Note
+s/notes/AN-13-357/trunk/MT2Definition.tex
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
 (Font)              scaled to size 15.0049pt on input line 2.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
@@ -686,8 +693,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 17--22
 )
 <567INP TopRec>
 
-(/home/eskandari/STop/CMSSW_5_3_7_patch1/src/Notes/notes/AN-13-357/trunk/TopRec
-.tex
+(/home/eskandari/MyPHDProjects/My-PHD-Projects/STop/CMSSW_5_3_7_patch1/src/Note
+s/notes/AN-13-357/trunk/TopRec.tex
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10> not available
 (Font)              Font shape `OT1/phv/b/n' tried instead on input line 33.
 <789FIG BigDraft 0>
@@ -751,8 +758,8 @@ Package pdftex.def Info: figs/top_fake_MT2.png used on input line 88.
 )
 <567INP DataSets>
 
-(/home/eskandari/STop/CMSSW_5_3_7_patch1/src/Notes/notes/AN-13-357/trunk/DataSe
-ts.tex
+(/home/eskandari/MyPHDProjects/My-PHD-Projects/STop/CMSSW_5_3_7_patch1/src/Note
+s/notes/AN-13-357/trunk/DataSets.tex
 <789FIG BigDraft 2>
 File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
@@ -764,15 +771,17 @@ File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
 Package pdftex.def Info: BigDraft.pdf used on input line 6.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[4 </home/eskandari/STop/CMSSW_5_3_7_patch1/src/Notes/notes/AN-13-357/trunk/fig
-s/topNjet.pdf> </home/eskandari/STop/CMSSW_5_3_7_patch1/src/Notes/notes/AN-13-3
-57/trunk/figs/topNbjet.pdf> </home/eskandari/STop/CMSSW_5_3_7_patch1/src/Notes/
-notes/AN-13-357/trunk/figs/topPt.pdf> </home/eskandari/STop/CMSSW_5_3_7_patch1/
-src/Notes/notes/AN-13-357/trunk/figs/topMT2.pdf> </home/eskandari/STop/CMSSW_5_
-3_7_patch1/src/Notes/notes/AN-13-357/trunk/figs/top_fake_NJets.png> </home/eska
-ndari/STop/CMSSW_5_3_7_patch1/src/Notes/notes/AN-13-357/trunk/figs/top_fake_NBJ
-ets.png> </home/eskandari/STop/CMSSW_5_3_7_patch1/src/Notes/notes/AN-13-357/tru
-nk/figs/top_fake_MT2.png>]
+[4 </home/eskandari/MyPHDProjects/My-PHD-Projects/STop/CMSSW_5_3_7_patch1/src/N
+otes/notes/AN-13-357/trunk/figs/topNjet.pdf> </home/eskandari/MyPHDProjects/My-
+PHD-Projects/STop/CMSSW_5_3_7_patch1/src/Notes/notes/AN-13-357/trunk/figs/topNb
+jet.pdf> </home/eskandari/MyPHDProjects/My-PHD-Projects/STop/CMSSW_5_3_7_patch1
+/src/Notes/notes/AN-13-357/trunk/figs/topPt.pdf> </home/eskandari/MyPHDProjects
+/My-PHD-Projects/STop/CMSSW_5_3_7_patch1/src/Notes/notes/AN-13-357/trunk/figs/t
+opMT2.pdf> </home/eskandari/MyPHDProjects/My-PHD-Projects/STop/CMSSW_5_3_7_patc
+h1/src/Notes/notes/AN-13-357/trunk/figs/top_fake_NJets.png> </home/eskandari/My
+PHDProjects/My-PHD-Projects/STop/CMSSW_5_3_7_patch1/src/Notes/notes/AN-13-357/t
+runk/figs/top_fake_NBJets.png> </home/eskandari/MyPHDProjects/My-PHD-Projects/S
+Top/CMSSW_5_3_7_patch1/src/Notes/notes/AN-13-357/trunk/figs/top_fake_MT2.png>]
 Overfull \hbox (7.45895pt too wide) in paragraph at lines 24--92
  [] 
  []
@@ -780,8 +789,8 @@ Overfull \hbox (7.45895pt too wide) in paragraph at lines 24--92
 )
 <567INP Object>
 
-(/home/eskandari/STop/CMSSW_5_3_7_patch1/src/Notes/notes/AN-13-357/trunk/Object
-.tex
+(/home/eskandari/MyPHDProjects/My-PHD-Projects/STop/CMSSW_5_3_7_patch1/src/Note
+s/notes/AN-13-357/trunk/Object.tex
 <789FIG BigDraft 2>
 File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
@@ -823,21 +832,23 @@ File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
 Package pdftex.def Info: BigDraft.pdf used on input line 74.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[7 </home/eskandari/STop/CMSSW_5_3_7_patch1/src/Notes/notes/AN-13-357/trunk/fig
-s/METNoSmearing.png> </home/eskandari/STop/CMSSW_5_3_7_patch1/src/Notes/notes/A
-N-13-357/trunk/figs/MT2NoSmearing.png>]
+[7 </home/eskandari/MyPHDProjects/My-PHD-Projects/STop/CMSSW_5_3_7_patch1/src/N
+otes/notes/AN-13-357/trunk/figs/METNoSmearing.png> </home/eskandari/MyPHDProjec
+ts/My-PHD-Projects/STop/CMSSW_5_3_7_patch1/src/Notes/notes/AN-13-357/trunk/figs
+/MT2NoSmearing.png>]
 <789FIG BigDraft 4>
 File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
 Package pdftex.def Info: BigDraft.pdf used on input line 105.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[8 </home/eskandari/STop/CMSSW_5_3_7_patch1/src/Notes/notes/AN-13-357/trunk/fig
-s/METSmearedJetMET.png> </home/eskandari/STop/CMSSW_5_3_7_patch1/src/Notes/note
-s/AN-13-357/trunk/figs/MT2SmearedJetMET.png>])
+[8 </home/eskandari/MyPHDProjects/My-PHD-Projects/STop/CMSSW_5_3_7_patch1/src/N
+otes/notes/AN-13-357/trunk/figs/METSmearedJetMET.png> </home/eskandari/MyPHDPro
+jects/My-PHD-Projects/STop/CMSSW_5_3_7_patch1/src/Notes/notes/AN-13-357/trunk/f
+igs/MT2SmearedJetMET.png>])
 <567INP TurnOn>
 
-(/home/eskandari/STop/CMSSW_5_3_7_patch1/src/Notes/notes/AN-13-357/trunk/TurnOn
-.tex
+(/home/eskandari/MyPHDProjects/My-PHD-Projects/STop/CMSSW_5_3_7_patch1/src/Note
+s/notes/AN-13-357/trunk/TurnOn.tex
 <789FIG figs/TriggerDemonstration.pdf 4>
 <figs/TriggerDemonstration.pdf, id=318, 569.12625pt x 278.03876pt>
 File: figs/TriggerDemonstration.pdf Graphic file (type pdf)
@@ -859,15 +870,16 @@ Package pdftex.def Info: BigDraft.pdf used on input line 67.
 [9])
 <567INP Efficiency>
 
-(/home/eskandari/STop/CMSSW_5_3_7_patch1/src/Notes/notes/AN-13-357/trunk/Effici
-ency.tex
+(/home/eskandari/MyPHDProjects/My-PHD-Projects/STop/CMSSW_5_3_7_patch1/src/Note
+s/notes/AN-13-357/trunk/Efficiency.tex
 <789FIG BigDraft 6>
 File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
 Package pdftex.def Info: BigDraft.pdf used on input line 1.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[10 </home/eskandari/STop/CMSSW_5_3_7_patch1/src/Notes/notes/AN-13-357/trunk/fi
-gs/TriggerDemonstration.pdf, page is rotated 90 degrees>]
+[10 </home/eskandari/MyPHDProjects/My-PHD-Projects/STop/CMSSW_5_3_7_patch1/src/
+Notes/notes/AN-13-357/trunk/figs/TriggerDemonstration.pdf, page is rotated 90 d
+egrees>]
 <789FIG figs/HT_eff.pdf 6>
 <figs/HT_eff.pdf, id=383, 569.12625pt x 548.0475pt>
 File: figs/HT_eff.pdf Graphic file (type pdf)
@@ -889,22 +901,23 @@ Package pdftex.def Info: figs/SMST2tt_20121114.pdf used on input line 15.
 )
 <567INP Selection>
 
-(/home/eskandari/STop/CMSSW_5_3_7_patch1/src/Notes/notes/AN-13-357/trunk/Select
-ion.tex
+(/home/eskandari/MyPHDProjects/My-PHD-Projects/STop/CMSSW_5_3_7_patch1/src/Note
+s/notes/AN-13-357/trunk/Selection.tex
 <789FIG BigDraft 8>
 File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
 Package pdftex.def Info: BigDraft.pdf used on input line 1.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[11 </home/eskandari/STop/CMSSW_5_3_7_patch1/src/Notes/notes/AN-13-357/trunk/fi
-gs/TriggerDemonstrationEff.pdf, page is rotated 90 degrees> </home/eskandari/ST
-op/CMSSW_5_3_7_patch1/src/Notes/notes/AN-13-357/trunk/figs/HT_eff.pdf, page is 
-rotated 90 degrees> </home/eskandari/STop/CMSSW_5_3_7_patch1/src/Notes/notes/AN
--13-357/trunk/figs/multijet_eff.pdf, page is rotated 90 degrees>])
+[11 </home/eskandari/MyPHDProjects/My-PHD-Projects/STop/CMSSW_5_3_7_patch1/src/
+Notes/notes/AN-13-357/trunk/figs/TriggerDemonstrationEff.pdf, page is rotated 9
+0 degrees> </home/eskandari/MyPHDProjects/My-PHD-Projects/STop/CMSSW_5_3_7_patc
+h1/src/Notes/notes/AN-13-357/trunk/figs/HT_eff.pdf, page is rotated 90 degrees>
+ </home/eskandari/MyPHDProjects/My-PHD-Projects/STop/CMSSW_5_3_7_patch1/src/Not
+es/notes/AN-13-357/trunk/figs/multijet_eff.pdf, page is rotated 90 degrees>])
 <567INP SearchStrategy>
 
-(/home/eskandari/STop/CMSSW_5_3_7_patch1/src/Notes/notes/AN-13-357/trunk/Search
-Strategy.tex
+(/home/eskandari/MyPHDProjects/My-PHD-Projects/STop/CMSSW_5_3_7_patch1/src/Note
+s/notes/AN-13-357/trunk/SearchStrategy.tex
 <789FIG figs/MT2SmearedJetMET.png 8>
 File: figs/MT2SmearedJetMET.png Graphic file (type png)
 <use figs/MT2SmearedJetMET.png>
@@ -915,12 +928,13 @@ File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
 Package pdftex.def Info: BigDraft.pdf used on input line 17.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[12 </home/eskandari/STop/CMSSW_5_3_7_patch1/src/Notes/notes/AN-13-357/trunk/fi
-gs/SMST2tt_20121114.pdf, page is rotated 90 degrees>])
+[12 </home/eskandari/MyPHDProjects/My-PHD-Projects/STop/CMSSW_5_3_7_patch1/src/
+Notes/notes/AN-13-357/trunk/figs/SMST2tt_20121114.pdf, page is rotated 90 degre
+es>])
 <567INP QCD>
 
-(/home/eskandari/STop/CMSSW_5_3_7_patch1/src/Notes/notes/AN-13-357/trunk/QCD.te
-x
+(/home/eskandari/MyPHDProjects/My-PHD-Projects/STop/CMSSW_5_3_7_patch1/src/Note
+s/notes/AN-13-357/trunk/QCD.tex
 <789FIG BigDraft 9>
 File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
@@ -948,9 +962,10 @@ File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
 Package pdftex.def Info: BigDraft.pdf used on input line 98.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[14 </home/eskandari/STop/CMSSW_5_3_7_patch1/src/Notes/notes/AN-13-357/trunk/QC
-DFig/qcd_distribution.png> </home/eskandari/STop/CMSSW_5_3_7_patch1/src/Notes/n
-otes/AN-13-357/trunk/QCDFig/sms_distribution.png>]
+[14 </home/eskandari/MyPHDProjects/My-PHD-Projects/STop/CMSSW_5_3_7_patch1/src/
+Notes/notes/AN-13-357/trunk/QCDFig/qcd_distribution.png> </home/eskandari/MyPHD
+Projects/My-PHD-Projects/STop/CMSSW_5_3_7_patch1/src/Notes/notes/AN-13-357/trun
+k/QCDFig/sms_distribution.png>]
 <789FIG QCDFig/qcd_ratio.png 10>
 <QCDFig/qcd_ratio.png, id=602, 598.235pt x 473.77pt>
 File: QCDFig/qcd_ratio.png Graphic file (type png)
@@ -977,8 +992,8 @@ File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
 Package pdftex.def Info: BigDraft.pdf used on input line 175.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[15 </home/eskandari/STop/CMSSW_5_3_7_patch1/src/Notes/notes/AN-13-357/trunk/QC
-DFig/qcd_ratio.png>]
+[15 </home/eskandari/MyPHDProjects/My-PHD-Projects/STop/CMSSW_5_3_7_patch1/src/
+Notes/notes/AN-13-357/trunk/QCDFig/qcd_ratio.png>]
 <789FIG QCDFig/exp_distribution.png 12>
 <QCDFig/exp_distribution.png, id=617, 598.235pt x 473.77pt>
 File: QCDFig/exp_distribution.png Graphic file (type png)
@@ -991,17 +1006,18 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 )
 <567INP LostLepton>
 
-(/home/eskandari/STop/CMSSW_5_3_7_patch1/src/Notes/notes/AN-13-357/trunk/LostLe
-pton.tex
+(/home/eskandari/MyPHDProjects/My-PHD-Projects/STop/CMSSW_5_3_7_patch1/src/Note
+s/notes/AN-13-357/trunk/LostLepton.tex
 <789FIG BigDraft 13>
 File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
 Package pdftex.def Info: BigDraft.pdf used on input line 1.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[16 </home/eskandari/STop/CMSSW_5_3_7_patch1/src/Notes/notes/AN-13-357/trunk/QC
-DFig/data_ratio.png> </home/eskandari/STop/CMSSW_5_3_7_patch1/src/Notes/notes/A
-N-13-357/trunk/QCDFig/data_ratio_zoom.png> </home/eskandari/STop/CMSSW_5_3_7_pa
-tch1/src/Notes/notes/AN-13-357/trunk/QCDFig/exp_distribution.png>]
+[16 </home/eskandari/MyPHDProjects/My-PHD-Projects/STop/CMSSW_5_3_7_patch1/src/
+Notes/notes/AN-13-357/trunk/QCDFig/data_ratio.png> </home/eskandari/MyPHDProjec
+ts/My-PHD-Projects/STop/CMSSW_5_3_7_patch1/src/Notes/notes/AN-13-357/trunk/QCDF
+ig/data_ratio_zoom.png> </home/eskandari/MyPHDProjects/My-PHD-Projects/STop/CMS
+SW_5_3_7_patch1/src/Notes/notes/AN-13-357/trunk/QCDFig/exp_distribution.png>]
 <789FIG llplots_20Invfb/ele_pt.png 13>
 <llplots_20Invfb/ele_pt.png, id=625, 598.235pt x 574.145pt>
 File: llplots_20Invfb/ele_pt.png Graphic file (type png)
@@ -1019,9 +1035,10 @@ File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
 Package pdftex.def Info: BigDraft.pdf used on input line 40.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[17 </home/eskandari/STop/CMSSW_5_3_7_patch1/src/Notes/notes/AN-13-357/trunk/ll
-plots_20Invfb/ele_pt.png> </home/eskandari/STop/CMSSW_5_3_7_patch1/src/Notes/no
-tes/AN-13-357/trunk/llplots_20Invfb/mu_pt.png>]
+[17 </home/eskandari/MyPHDProjects/My-PHD-Projects/STop/CMSSW_5_3_7_patch1/src/
+Notes/notes/AN-13-357/trunk/llplots_20Invfb/ele_pt.png> </home/eskandari/MyPHDP
+rojects/My-PHD-Projects/STop/CMSSW_5_3_7_patch1/src/Notes/notes/AN-13-357/trunk
+/llplots_20Invfb/mu_pt.png>]
 <789FIG llplots_20Invfb/ele_mt.png 14>
 <llplots_20Invfb/ele_mt.png, id=634, 598.235pt x 574.145pt>
 File: llplots_20Invfb/ele_mt.png Graphic file (type png)
@@ -1057,16 +1074,18 @@ File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
 Package pdftex.def Info: BigDraft.pdf used on input line 123.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[19 </home/eskandari/STop/CMSSW_5_3_7_patch1/src/Notes/notes/AN-13-357/trunk/ll
-plots_20Invfb/ele_mt.png> </home/eskandari/STop/CMSSW_5_3_7_patch1/src/Notes/no
-tes/AN-13-357/trunk/llplots_20Invfb/mu_mt.png> </home/eskandari/STop/CMSSW_5_3_
-7_patch1/src/Notes/notes/AN-13-357/trunk/llplots_20Invfb/ele_ratio.pdf, page is
- rotated 90 degrees> </home/eskandari/STop/CMSSW_5_3_7_patch1/src/Notes/notes/A
-N-13-357/trunk/llplots_20Invfb/mu_ratio.pdf, page is rotated 90 degrees>])
+[19 </home/eskandari/MyPHDProjects/My-PHD-Projects/STop/CMSSW_5_3_7_patch1/src/
+Notes/notes/AN-13-357/trunk/llplots_20Invfb/ele_mt.png> </home/eskandari/MyPHDP
+rojects/My-PHD-Projects/STop/CMSSW_5_3_7_patch1/src/Notes/notes/AN-13-357/trunk
+/llplots_20Invfb/mu_mt.png> </home/eskandari/MyPHDProjects/My-PHD-Projects/STop
+/CMSSW_5_3_7_patch1/src/Notes/notes/AN-13-357/trunk/llplots_20Invfb/ele_ratio.p
+df, page is rotated 90 degrees> </home/eskandari/MyPHDProjects/My-PHD-Projects/
+STop/CMSSW_5_3_7_patch1/src/Notes/notes/AN-13-357/trunk/llplots_20Invfb/mu_rati
+o.pdf, page is rotated 90 degrees>])
 <567INP Tau>
 
-(/home/eskandari/STop/CMSSW_5_3_7_patch1/src/Notes/notes/AN-13-357/trunk/Tau.te
-x
+(/home/eskandari/MyPHDProjects/My-PHD-Projects/STop/CMSSW_5_3_7_patch1/src/Note
+s/notes/AN-13-357/trunk/Tau.tex
 <789FIG figs/MT2Tau.png 16>
 <figs/MT2Tau.png, id=742, 598.235pt x 574.145pt>
 File: figs/MT2Tau.png Graphic file (type png)
@@ -1079,8 +1098,8 @@ Missing character: There is no   in font pplr7t!
 )
 <567INP Znunu>
 
-(/home/eskandari/STop/CMSSW_5_3_7_patch1/src/Notes/notes/AN-13-357/trunk/Znunu.
-tex
+(/home/eskandari/MyPHDProjects/My-PHD-Projects/STop/CMSSW_5_3_7_patch1/src/Note
+s/notes/AN-13-357/trunk/Znunu.tex
 <789FIG BigDraft 17>
 File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
@@ -1103,8 +1122,8 @@ File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
 Package pdftex.def Info: BigDraft.pdf used on input line 19.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[21 </home/eskandari/STop/CMSSW_5_3_7_patch1/src/Notes/notes/AN-13-357/trunk/fi
-gs/MT2Tau.png>]
+[21 </home/eskandari/MyPHDProjects/My-PHD-Projects/STop/CMSSW_5_3_7_patch1/src/
+Notes/notes/AN-13-357/trunk/figs/MT2Tau.png>]
 <789FIG figs/Lept_Pt_0b_Mod.png 17>
 <figs/Lept_Pt_0b_Mod.png, id=767, 1185.42876pt x 718.685pt>
 File: figs/Lept_Pt_0b_Mod.png Graphic file (type png)
@@ -1133,10 +1152,11 @@ File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
 Package pdftex.def Info: BigDraft.pdf used on input line 92.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[22 </home/eskandari/STop/CMSSW_5_3_7_patch1/src/Notes/notes/AN-13-357/trunk/fi
-gs/Lept_Pt_0b_Mod.png> </home/eskandari/STop/CMSSW_5_3_7_patch1/src/Notes/notes
-/AN-13-357/trunk/figs/MT2_0b_Mod.png> </home/eskandari/STop/CMSSW_5_3_7_patch1/
-src/Notes/notes/AN-13-357/trunk/figs/MT_0b_Mod.png>]
+[22 </home/eskandari/MyPHDProjects/My-PHD-Projects/STop/CMSSW_5_3_7_patch1/src/
+Notes/notes/AN-13-357/trunk/figs/Lept_Pt_0b_Mod.png> </home/eskandari/MyPHDProj
+ects/My-PHD-Projects/STop/CMSSW_5_3_7_patch1/src/Notes/notes/AN-13-357/trunk/fi
+gs/MT2_0b_Mod.png> </home/eskandari/MyPHDProjects/My-PHD-Projects/STop/CMSSW_5_
+3_7_patch1/src/Notes/notes/AN-13-357/trunk/figs/MT_0b_Mod.png>]
 <789FIG figs/Lept_Pt_1b_Mod.png 18>
 <figs/Lept_Pt_1b_Mod.png, id=784, 1185.42876pt x 718.685pt>
 File: figs/Lept_Pt_1b_Mod.png Graphic file (type png)
@@ -1176,17 +1196,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 166--169
 )
 <567INP Statistics>
 
-(/home/eskandari/STop/CMSSW_5_3_7_patch1/src/Notes/notes/AN-13-357/trunk/Statis
-tics.tex
+(/home/eskandari/MyPHDProjects/My-PHD-Projects/STop/CMSSW_5_3_7_patch1/src/Note
+s/notes/AN-13-357/trunk/Statistics.tex
 <789FIG BigDraft 19>
 File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
 Package pdftex.def Info: BigDraft.pdf used on input line 8.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[24 </home/eskandari/STop/CMSSW_5_3_7_patch1/src/Notes/notes/AN-13-357/trunk/fi
-gs/Lept_Pt_1b_Mod.png> </home/eskandari/STop/CMSSW_5_3_7_patch1/src/Notes/notes
-/AN-13-357/trunk/figs/MT2_1b_Mod.png> </home/eskandari/STop/CMSSW_5_3_7_patch1/
-src/Notes/notes/AN-13-357/trunk/figs/MT_1b_Mod.png>]
+[24 </home/eskandari/MyPHDProjects/My-PHD-Projects/STop/CMSSW_5_3_7_patch1/src/
+Notes/notes/AN-13-357/trunk/figs/Lept_Pt_1b_Mod.png> </home/eskandari/MyPHDProj
+ects/My-PHD-Projects/STop/CMSSW_5_3_7_patch1/src/Notes/notes/AN-13-357/trunk/fi
+gs/MT2_1b_Mod.png> </home/eskandari/MyPHDProjects/My-PHD-Projects/STop/CMSSW_5_
+3_7_patch1/src/Notes/notes/AN-13-357/trunk/figs/MT_1b_Mod.png>]
 <789FIG StatisticsFig/Exc_131030_196ifb.png 19>
 <StatisticsFig/Exc_131030_196ifb.png, id=811, 798.985pt x 574.145pt>
 File: StatisticsFig/Exc_131030_196ifb.png Graphic file (type png)
@@ -1200,8 +1221,8 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 )
 <567INP Conclusion>
 
-(/home/eskandari/STop/CMSSW_5_3_7_patch1/src/Notes/notes/AN-13-357/trunk/Conclu
-sion.tex
+(/home/eskandari/MyPHDProjects/My-PHD-Projects/STop/CMSSW_5_3_7_patch1/src/Note
+s/notes/AN-13-357/trunk/Conclusion.tex
 <789FIG BigDraft 20>
 File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
@@ -1210,7 +1231,8 @@ Package pdftex.def Info: BigDraft.pdf used on input line 1.
 [25])
 <567INP AN-13-357_temp.bbl>
 
-(/home/eskandari/STop/CMSSW_5_3_7_patch1/src/Notes/notes/tmp/AN-13-357_temp.bbl
+(/home/eskandari/MyPHDProjects/My-PHD-Projects/STop/CMSSW_5_3_7_patch1/src/Note
+s/notes/tmp/AN-13-357_temp.bbl
 LaTeX Font Info:    Try loading font information for OT1+pcr on input line 10.
 LaTeX Font Info:    <567INP ot1pcr.fd> on input line 10.
 (/dataLOCAL/texlive/2013/texmf-dist/tex/latex/psnfss/ot1pcr.fd
@@ -1221,8 +1243,8 @@ File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
 Package pdftex.def Info: BigDraft.pdf used on input line 12.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-[26 </home/eskandari/STop/CMSSW_5_3_7_patch1/src/Notes/notes/AN-13-357/trunk/St
-atisticsFig/Exc_131030_196ifb.png>]
+[26 </home/eskandari/MyPHDProjects/My-PHD-Projects/STop/CMSSW_5_3_7_patch1/src/
+Notes/notes/AN-13-357/trunk/StatisticsFig/Exc_131030_196ifb.png>]
 <789FIG BigDraft 20>
 File: BigDraft.pdf Graphic file (type pdf)
 <use BigDraft.pdf>
@@ -1238,8 +1260,8 @@ Package pdftex.def Info: BigDraft.pdf used on input line 134.
 [28]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 134.
 
-(/home/eskandari/STop/CMSSW_5_3_7_patch1/src/Notes/notes/tmp/AN-13-357_temp.aux
-)
+(/home/eskandari/MyPHDProjects/My-PHD-Projects/STop/CMSSW_5_3_7_patch1/src/Note
+s/notes/tmp/AN-13-357_temp.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 134.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 134.
 Package rerunfilecheck Info: File `AN-13-357_temp.out' has not changed.
@@ -1248,12 +1270,12 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 134.
  ) 
 Here is how much of TeX's memory you used:
  10797 strings out of 493315
- 157122 string characters out of 6137910
+ 158952 string characters out of 6137910
  270196 words of memory out of 5000000
  13788 multiletter control sequences out of 15000+600000
  69771 words of font info for 174 fonts, out of 8000000 for 9000
  960 hyphenation exceptions out of 8191
- 51i,16n,45p,1263b,548s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 51i,16n,45p,1293b,548s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/dataLOCAL/texlive/2013/texmf-dist/fonts/enc/dvips/base/8r.enc}</dataLOCAL/t
 exlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></dataLOCAL/te
 xlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></dataLOCAL/tex
@@ -1268,7 +1290,7 @@ rw/palatino/uplb8a.pfb></dataLOCAL/texlive/2013/texmf-dist/fonts/type1/urw/pala
 tino/uplbi8a.pfb></dataLOCAL/texlive/2013/texmf-dist/fonts/type1/urw/palatino/u
 plr8a.pfb></dataLOCAL/texlive/2013/texmf-dist/fonts/type1/urw/palatino/uplri8a.
 pfb>
-Output written on AN-13-357_temp.pdf (30 pages, 876460 bytes).
+Output written on AN-13-357_temp.pdf (30 pages, 876853 bytes).
 PDF statistics:
  958 PDF objects out of 1000 (max. 8388607)
  665 compressed objects within 7 object streams
